@@ -1,0 +1,1611 @@
+11/2024 21:22:12.283: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/
+26/11/2024 21:22:12.284: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:12.284: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:12.285: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:12.287: dd.a0 - User-Name: 868102
+26/11/2024 21:22:12.288: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:12.288: dd.a0 - Store-Name: O003
+26/11/2024 21:22:12.289: dd.a0 - Store-Number: o003
+26/11/2024 21:22:12.290: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:12.290: dd.a0 - --> END GET
+26/11/2024 21:22:12.360: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/ (68ms)
+26/11/2024 21:22:12.360: dd.a0 - Date: Tue, 26 Nov 2024 18:22:12 GMT
+26/11/2024 21:22:12.361: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:12.361: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:12.362: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:12.363: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:12.363: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:12.363: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:12.364: dd.a0 - Expires: 0
+26/11/2024 21:22:12.364: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:12.365: dd.a0 - Content-Length: 935
+26/11/2024 21:22:12.365: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:12.366: dd.a0 - [ "generators", "transfer-orders", "electronic-price-tags", "items", "tasks-shelf-life", "baskets", "five-post-parcels", "stocks", "full-inventories", "encashments", "store", "balance-message", "alcohol-stamps", "merchandise-groups", "place-groups", "write-offs", "shipments", "tasks-shelf-life-expiration-check", "alcohol-boxes", "cusp", "lockers", "mrp", "balance-recalculations", "replication", "printers", "barcodes", "price-tags-verifications", "price-changes", "incomings", "receipt-journal", "suppliers", "alco-platform", "reports", "mark-platform", "shipment-requests", "gift-sets", "order-request-templates", "local-inventories-mrm", "tasks-virtual-baking-stock-taking", "price-tags", "cises", "retail-turnovers", "markdowns", "tasks", "cashier-recalculations", "balance", "actuator", "alcohol-stamps-queries", "labels", "reclamations", "local-inventories", "order-requests", "order-request-positions", "employees", "orders" ]
+26/11/2024 21:22:12.366: dd.a0 - <-- END HTTP (935-byte body)
+26/11/2024 21:22:13.673: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories?statusCodes=0,1,6,7
+26/11/2024 21:22:13.674: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:13.675: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:13.675: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:13.676: dd.a0 - User-Name: 868102
+26/11/2024 21:22:13.676: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:13.677: dd.a0 - Store-Name: O003
+26/11/2024 21:22:13.677: dd.a0 - Store-Number: o003
+26/11/2024 21:22:13.678: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:13.678: dd.a0 - --> END GET
+26/11/2024 21:22:13.708: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories?statusCodes=0,1,6,7 (28ms)
+26/11/2024 21:22:13.709: dd.a0 - Date: Tue, 26 Nov 2024 18:22:13 GMT
+26/11/2024 21:22:13.709: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:13.710: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:13.711: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:13.711: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:13.712: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:13.713: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:13.713: dd.a0 - Expires: 0
+26/11/2024 21:22:13.714: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:13.715: dd.a0 - Content-Length: 1093
+26/11/2024 21:22:13.715: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:13.716: dd.a0 - {
+  "inventories" : [ {
+    "id" : 100000000000029991,
+    "docNumber" : "O0034000023330",
+    "name" : "Кофе, какао, шоколад",
+    "typeCode" : "PART",
+    "originCode" : "AUTO",
+    "statusCode" : "1",
+    "creationDateTime" : "26.11.2024 03:22:00",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 03:22:02",
+    "dueDate" : "26.11.2024",
+    "positionsCount" : 66,
+    "totalSum" : 0.0,
+    "createdFromSap" : true,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  }, {
+    "id" : 100000000000029992,
+    "docNumber" : "O0034000023331",
+    "name" : "Сырье для напитков СП самообслуживания",
+    "typeCode" : "PART",
+    "originCode" : "AUTO",
+    "statusCode" : "0",
+    "creationDateTime" : "26.11.2024 03:22:03",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 03:22:03",
+    "dueDate" : "26.11.2024",
+    "positionsCount" : 14,
+    "totalSum" : 0.0,
+    "createdFromSap" : true,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  } ],
+  "affordances" : [ "create-markable" ]
+}
+26/11/2024 21:22:13.717: dd.a0 - <-- END HTTP (1093-byte body)
+26/11/2024 21:22:20.684: dd.a0 - --> POST http://bo-o003.x5.ru:8096/api/local-inventories
+26/11/2024 21:22:20.686: dd.a0 - Content-Length: 60
+26/11/2024 21:22:20.688: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:20.689: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:20.689: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:20.690: dd.a0 - User-Name: 868102
+26/11/2024 21:22:20.691: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:20.691: dd.a0 - Store-Name: O003
+26/11/2024 21:22:20.692: dd.a0 - Store-Number: o003
+26/11/2024 21:22:20.692: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:20.693: dd.a0 - {"creationDateTime":"26.11.2024 21:22:20","name":"Наим"}
+26/11/2024 21:22:20.694: dd.a0 - --> END POST (60-byte body)
+26/11/2024 21:22:21.267: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories (572ms)
+26/11/2024 21:22:21.268: dd.a0 - Date: Tue, 26 Nov 2024 18:22:20 GMT
+26/11/2024 21:22:21.268: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:21.269: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:21.269: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:21.270: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:21.270: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:21.271: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:21.271: dd.a0 - Expires: 0
+26/11/2024 21:22:21.271: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:21.272: dd.a0 - Content-Length: 330
+26/11/2024 21:22:21.272: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:21.273: dd.a0 - {
+  "id" : 100000000000029996,
+  "docNumber" : "O0032300013376",
+  "name" : "Наим",
+  "typeCode" : "PART",
+  "originCode" : "MAN",
+  "statusCode" : "0",
+  "creationDateTime" : "26.11.2024 21:22:20",
+  "startDate" : "26.11.2024",
+  "stockFixingDateTime" : "26.11.2024 21:22:20",
+  "dueDate" : "29.11.2024",
+  "totalSum" : 0.0
+}
+26/11/2024 21:22:21.273: dd.a0 - <-- END HTTP (330-byte body)
+26/11/2024 21:22:21.434: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376
+26/11/2024 21:22:21.436: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:21.439: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:21.441: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:21.443: dd.a0 - User-Name: 868102
+26/11/2024 21:22:21.444: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:21.444: dd.a0 - Store-Name: O003
+26/11/2024 21:22:21.445: dd.a0 - Store-Number: o003
+26/11/2024 21:22:21.445: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:21.446: dd.a0 - --> END GET
+26/11/2024 21:22:21.470: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376 (23ms)
+26/11/2024 21:22:21.471: dd.a0 - Date: Tue, 26 Nov 2024 18:22:21 GMT
+26/11/2024 21:22:21.471: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:21.472: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:21.473: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:21.473: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:21.474: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:21.474: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:21.475: dd.a0 - Expires: 0
+26/11/2024 21:22:21.476: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:21.476: dd.a0 - Content-Length: 532
+26/11/2024 21:22:21.477: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:21.477: dd.a0 - {
+  "inventories" : [ {
+    "id" : 100000000000029996,
+    "docNumber" : "O0032300013376",
+    "name" : "Наим",
+    "typeCode" : "PART",
+    "originCode" : "MAN",
+    "statusCode" : "1",
+    "creationDateTime" : "26.11.2024 21:22:20",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 21:22:20",
+    "dueDate" : "29.11.2024",
+    "positionsCount" : 0,
+    "totalSum" : 0.0,
+    "createdFromSap" : false,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  } ],
+  "affordances" : [ "create-markable" ]
+}
+26/11/2024 21:22:21.478: dd.a0 - <-- END HTTP (532-byte body)
+26/11/2024 21:22:21.484: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd
+26/11/2024 21:22:21.485: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:21.486: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:21.487: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:21.488: dd.a0 - User-Name: 868102
+26/11/2024 21:22:21.488: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:21.489: dd.a0 - Store-Name: O003
+26/11/2024 21:22:21.490: dd.a0 - Store-Number: o003
+26/11/2024 21:22:21.490: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:21.491: dd.a0 - --> END GET
+26/11/2024 21:22:21.527: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd (35ms)
+26/11/2024 21:22:21.527: dd.a0 - Date: Tue, 26 Nov 2024 18:22:21 GMT
+26/11/2024 21:22:21.528: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:21.528: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:21.529: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:21.529: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:21.530: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:21.530: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:21.531: dd.a0 - Expires: 0
+26/11/2024 21:22:21.531: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:21.532: dd.a0 - Content-Length: 3
+26/11/2024 21:22:21.532: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:21.533: dd.a0 - [ ]
+26/11/2024 21:22:21.533: dd.a0 - <-- END HTTP (3-byte body)
+26/11/2024 21:22:24.282: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/
+26/11/2024 21:22:24.283: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.283: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:24.284: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:24.284: dd.a0 - User-Name: 868102
+26/11/2024 21:22:24.285: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:24.285: dd.a0 - Store-Name: O003
+26/11/2024 21:22:24.286: dd.a0 - Store-Number: o003
+26/11/2024 21:22:24.286: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.287: dd.a0 - --> END GET
+26/11/2024 21:22:24.304: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/ (16ms)
+26/11/2024 21:22:24.305: dd.a0 - Date: Tue, 26 Nov 2024 18:22:24 GMT
+26/11/2024 21:22:24.305: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.306: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.306: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:24.307: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:24.307: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:24.308: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:24.308: dd.a0 - Expires: 0
+26/11/2024 21:22:24.309: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:24.309: dd.a0 - Content-Length: 935
+26/11/2024 21:22:24.310: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:24.310: dd.a0 - [ "generators", "transfer-orders", "electronic-price-tags", "items", "tasks-shelf-life", "baskets", "five-post-parcels", "stocks", "full-inventories", "encashments", "store", "balance-message", "alcohol-stamps", "merchandise-groups", "place-groups", "write-offs", "shipments", "tasks-shelf-life-expiration-check", "alcohol-boxes", "cusp", "lockers", "mrp", "balance-recalculations", "replication", "printers", "barcodes", "price-tags-verifications", "price-changes", "incomings", "receipt-journal", "suppliers", "alco-platform", "reports", "mark-platform", "shipment-requests", "gift-sets", "order-request-templates", "local-inventories-mrm", "tasks-virtual-baking-stock-taking", "price-tags", "cises", "retail-turnovers", "markdowns", "tasks", "cashier-recalculations", "balance", "actuator", "alcohol-stamps-queries", "labels", "reclamations", "local-inventories", "order-requests", "order-request-positions", "employees", "orders" ]
+26/11/2024 21:22:24.311: dd.a0 - <-- END HTTP (935-byte body)
+26/11/2024 21:22:24.314: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/tasks/active?onlyCount=true
+26/11/2024 21:22:24.314: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/write-offs/count
+26/11/2024 21:22:24.316: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.314: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/incomings?archive=false&deliveryFromDate=26.11.2024&deliveryToDate=27.11.2024
+26/11/2024 21:22:24.314: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/prices/changes/count
+26/11/2024 21:22:24.320: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.321: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:24.318: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:24.320: dd.a0 - READ_TIMEOUT: 120000
+26/11/2024 21:22:24.326: dd.a0 - WRITE_TIMEOUT: 30000
+26/11/2024 21:22:24.314: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories/count
+26/11/2024 21:22:24.322: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:24.324: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:24.315: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.327: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.329: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.330: dd.a0 - User-Name: 868102
+26/11/2024 21:22:24.335: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:24.332: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:24.337: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:24.337: dd.a0 - User-Name: 868102
+26/11/2024 21:22:24.331: dd.a0 - User-Name: 868102
+26/11/2024 21:22:24.336: dd.a0 - Store-Name: O003
+26/11/2024 21:22:24.340: dd.a0 - Store-Number: o003
+26/11/2024 21:22:24.334: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:24.338: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:24.343: dd.a0 - Store-Name: O003
+26/11/2024 21:22:24.343: dd.a0 - Store-Number: o003
+26/11/2024 21:22:24.340: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.345: dd.a0 - --> END GET
+26/11/2024 21:22:24.339: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:24.348: dd.a0 - Store-Name: O003
+26/11/2024 21:22:24.344: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.352: dd.a0 - --> END GET
+26/11/2024 21:22:24.333: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:24.351: dd.a0 - Store-Number: o003
+26/11/2024 21:22:24.342: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:24.355: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:24.357: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.358: dd.a0 - User-Name: 868102
+26/11/2024 21:22:24.360: dd.a0 - User-Name: 868102
+26/11/2024 21:22:24.361: dd.a0 - --> END GET
+26/11/2024 21:22:24.363: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:24.364: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:24.368: dd.a0 - Store-Name: O003
+26/11/2024 21:22:24.369: dd.a0 - Store-Name: O003
+26/11/2024 21:22:24.371: dd.a0 - Store-Number: o003
+26/11/2024 21:22:24.373: dd.a0 - Store-Number: o003
+26/11/2024 21:22:24.374: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/prices/changes/count (27ms)
+26/11/2024 21:22:24.376: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.378: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.382: dd.a0 - --> END GET
+26/11/2024 21:22:24.385: dd.a0 - --> END GET
+26/11/2024 21:22:24.379: dd.a0 - Date: Tue, 26 Nov 2024 18:22:24 GMT
+26/11/2024 21:22:24.388: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/write-offs/count (21ms)
+26/11/2024 21:22:24.392: dd.a0 - Date: Tue, 26 Nov 2024 18:22:24 GMT
+26/11/2024 21:22:24.395: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.395: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/tasks/active?onlyCount=true (42ms)
+26/11/2024 21:22:24.390: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.397: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.397: dd.a0 - Date: Tue, 26 Nov 2024 18:22:24 GMT
+26/11/2024 21:22:24.402: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.403: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.398: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.405: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:24.404: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:24.407: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:24.406: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:24.402: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:24.408: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:24.410: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:24.411: dd.a0 - Expires: 0
+26/11/2024 21:22:24.410: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:24.408: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:24.413: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:24.413: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:24.412: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:24.414: dd.a0 - Expires: 0
+26/11/2024 21:22:24.415: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:24.415: dd.a0 - Content-Length: 22
+26/11/2024 21:22:24.417: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:24.423: dd.a0 - Content-Length: 1
+26/11/2024 21:22:24.421: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:24.426: dd.a0 - {
+  "tasksCount" : 1
+}
+26/11/2024 21:22:24.427: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/count (38ms)
+26/11/2024 21:22:24.420: dd.a0 - Expires: 0
+26/11/2024 21:22:24.426: dd.a0 - <-- END HTTP (22-byte body)
+26/11/2024 21:22:24.429: dd.a0 - Date: Tue, 26 Nov 2024 18:22:24 GMT
+26/11/2024 21:22:24.432: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.430: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:24.434: dd.a0 - Content-Length: 2
+26/11/2024 21:22:24.425: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:24.432: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.437: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:24.436: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:24.438: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:24.440: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:24.440: dd.a0 - 81
+26/11/2024 21:22:24.439: dd.a0 - 0
+26/11/2024 21:22:24.444: dd.a0 - <-- END HTTP (1-byte body)
+26/11/2024 21:22:24.443: dd.a0 - <-- END HTTP (2-byte body)
+26/11/2024 21:22:24.442: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:24.447: dd.a0 - Expires: 0
+26/11/2024 21:22:24.448: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:24.449: dd.a0 - Content-Length: 67
+26/11/2024 21:22:24.449: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:24.450: dd.a0 - {
+  "localInventoriesCount" : 3,
+  "markableInventoriesCount" : 0
+}
+26/11/2024 21:22:24.451: dd.a0 - <-- END HTTP (67-byte body)
+26/11/2024 21:22:24.695: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/incomings?archive=false&deliveryFromDate=26.11.2024&deliveryToDate=27.11.2024 (304ms)
+26/11/2024 21:22:24.697: dd.a0 - Date: Tue, 26 Nov 2024 18:22:24 GMT
+26/11/2024 21:22:24.698: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:24.699: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:24.701: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:24.703: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:24.704: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:24.705: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:24.706: dd.a0 - Expires: 0
+26/11/2024 21:22:24.708: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:24.709: dd.a0 - Content-Length: 15072
+26/11/2024 21:22:24.710: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:24.739: dd.a0 - 
+26/11/2024 21:22:24.741: dd.a0 - <-- END HTTP (15072-byte body)
+26/11/2024 21:22:31.069: dd.a0 - --> PUT http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996?name=Check
+26/11/2024 21:22:31.074: dd.a0 - Content-Length: 0
+26/11/2024 21:22:31.075: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:31.078: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:31.079: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:31.079: dd.a0 - User-Name: 868102
+26/11/2024 21:22:31.080: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:31.081: dd.a0 - Store-Name: O003
+26/11/2024 21:22:31.081: dd.a0 - Store-Number: o003
+26/11/2024 21:22:31.082: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:31.083: dd.a0 - --> END PUT (0-byte body)
+26/11/2024 21:22:31.110: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996?name=Check (26ms)
+26/11/2024 21:22:31.113: dd.a0 - Date: Tue, 26 Nov 2024 18:22:31 GMT
+26/11/2024 21:22:31.113: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:31.114: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:31.115: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:31.116: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:31.116: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:31.117: dd.a0 - Expires: 0
+26/11/2024 21:22:31.118: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:31.118: dd.a0 - Content-Length: 0
+26/11/2024 21:22:31.119: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:31.119: dd.a0 - <-- END HTTP (0-byte body)
+26/11/2024 21:22:31.124: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376
+26/11/2024 21:22:31.125: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:31.126: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:31.127: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:31.127: dd.a0 - User-Name: 868102
+26/11/2024 21:22:31.128: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:31.129: dd.a0 - Store-Name: O003
+26/11/2024 21:22:31.129: dd.a0 - Store-Number: o003
+26/11/2024 21:22:31.130: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:31.130: dd.a0 - --> END GET
+26/11/2024 21:22:31.145: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376 (13ms)
+26/11/2024 21:22:31.146: dd.a0 - Date: Tue, 26 Nov 2024 18:22:31 GMT
+26/11/2024 21:22:31.146: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:31.147: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:31.148: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:31.148: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:31.148: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:31.149: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:31.149: dd.a0 - Expires: 0
+26/11/2024 21:22:31.150: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:31.150: dd.a0 - Content-Length: 529
+26/11/2024 21:22:31.151: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:31.151: dd.a0 - {
+  "inventories" : [ {
+    "id" : 100000000000029996,
+    "docNumber" : "O0032300013376",
+    "name" : "Check",
+    "typeCode" : "PART",
+    "originCode" : "MAN",
+    "statusCode" : "1",
+    "creationDateTime" : "26.11.2024 21:22:20",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 21:22:20",
+    "dueDate" : "29.11.2024",
+    "positionsCount" : 0,
+    "totalSum" : 0.0,
+    "createdFromSap" : false,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  } ],
+  "affordances" : [ "create-markable" ]
+}
+26/11/2024 21:22:31.152: dd.a0 - <-- END HTTP (529-byte body)
+26/11/2024 21:22:31.156: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd
+26/11/2024 21:22:31.158: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:31.159: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:31.161: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:31.162: dd.a0 - User-Name: 868102
+26/11/2024 21:22:31.162: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:31.163: dd.a0 - Store-Name: O003
+26/11/2024 21:22:31.163: dd.a0 - Store-Number: o003
+26/11/2024 21:22:31.164: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:31.164: dd.a0 - --> END GET
+26/11/2024 21:22:31.180: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd (15ms)
+26/11/2024 21:22:31.181: dd.a0 - Date: Tue, 26 Nov 2024 18:22:31 GMT
+26/11/2024 21:22:31.181: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:31.182: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:31.182: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:31.183: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:31.183: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:31.184: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:31.184: dd.a0 - Expires: 0
+26/11/2024 21:22:31.184: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:31.185: dd.a0 - Content-Length: 3
+26/11/2024 21:22:31.185: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:31.186: dd.a0 - [ ]
+26/11/2024 21:22:31.186: dd.a0 - <-- END HTTP (3-byte body)
+26/11/2024 21:22:41.528: dd.a0 - --> POST http://bo-o003.x5.ru:8096/api/local-inventories/item-searches?inventoryId=100000000000029996
+26/11/2024 21:22:41.529: dd.a0 - Content-Length: 31
+26/11/2024 21:22:41.530: dd.a0 - READ_TIMEOUT: 300000
+26/11/2024 21:22:41.531: dd.a0 - WRITE_TIMEOUT: 300000
+26/11/2024 21:22:41.531: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:41.532: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:41.532: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:41.533: dd.a0 - User-Name: 868102
+26/11/2024 21:22:41.534: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:41.534: dd.a0 - Store-Name: O003
+26/11/2024 21:22:41.535: dd.a0 - Store-Number: o003
+26/11/2024 21:22:41.535: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:41.536: dd.a0 - {"itemIds":["1986"],"limit":50}
+26/11/2024 21:22:41.536: dd.a0 - --> END POST (31-byte body)
+26/11/2024 21:22:41.564: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/item-searches?inventoryId=100000000000029996 (26ms)
+26/11/2024 21:22:41.565: dd.a0 - Date: Tue, 26 Nov 2024 18:22:41 GMT
+26/11/2024 21:22:41.565: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:41.566: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:41.566: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:41.567: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:41.567: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:41.568: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:41.568: dd.a0 - Expires: 0
+26/11/2024 21:22:41.569: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:41.569: dd.a0 - Content-Length: 3
+26/11/2024 21:22:41.570: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:41.570: dd.a0 - [ ]
+26/11/2024 21:22:41.571: dd.a0 - <-- END HTTP (3-byte body)
+26/11/2024 21:22:46.507: dd.a0 - --> POST http://bo-o003.x5.ru:8096/api/local-inventories/item-searches?inventoryId=100000000000029996
+26/11/2024 21:22:46.508: dd.a0 - Content-Length: 30
+26/11/2024 21:22:46.509: dd.a0 - READ_TIMEOUT: 300000
+26/11/2024 21:22:46.510: dd.a0 - WRITE_TIMEOUT: 300000
+26/11/2024 21:22:46.510: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:46.511: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:46.511: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:46.511: dd.a0 - User-Name: 868102
+26/11/2024 21:22:46.512: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:46.512: dd.a0 - Store-Name: O003
+26/11/2024 21:22:46.513: dd.a0 - Store-Number: o003
+26/11/2024 21:22:46.514: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:46.514: dd.a0 - {"itemIds":["202"],"limit":50}
+26/11/2024 21:22:46.516: dd.a0 - --> END POST (30-byte body)
+26/11/2024 21:22:46.688: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/item-searches?inventoryId=100000000000029996 (171ms)
+26/11/2024 21:22:46.689: dd.a0 - Date: Tue, 26 Nov 2024 18:22:46 GMT
+26/11/2024 21:22:46.689: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:46.690: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:46.690: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:46.690: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:46.691: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:46.691: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:46.692: dd.a0 - Expires: 0
+26/11/2024 21:22:46.692: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:46.692: dd.a0 - Content-Length: 590
+26/11/2024 21:22:46.693: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:46.693: dd.a0 - [ {
+  "article" : "202",
+  "unitOfMeasureCode" : "KG",
+  "regularPrice" : 172.99,
+  "merchandiseGroupId" : "FR0905006",
+  "merchandiseGroupName" : "Томаты свежие",
+  "itemName" : "Дск Томаты 1кг",
+  "alcohol" : false,
+  "excisable" : false,
+  "allowedForInventory" : {
+    "inventoryRestriction" : "ALLOWED"
+  },
+  "itemIds" : [ "2500062" ],
+  "stock" : {
+    "value" : 34.611,
+    "dateTime" : "26.11.2024 21:22:46"
+  },
+  "activeInventories" : [ {
+    "inventoryId" : 100000000000028568,
+    "positionId" : 100000000019786903,
+    "countedQuantity" : 25.8
+  } ]
+} ]
+26/11/2024 21:22:46.694: dd.a0 - <-- END HTTP (590-byte body)
+26/11/2024 21:22:46.700: dd.a0 - --> POST http://bo-o003.x5.ru:8096/api/local-inventories/item-searches?inventoryId=100000000000029996
+26/11/2024 21:22:46.701: dd.a0 - Content-Length: 29
+26/11/2024 21:22:46.702: dd.a0 - READ_TIMEOUT: 300000
+26/11/2024 21:22:46.702: dd.a0 - WRITE_TIMEOUT: 300000
+26/11/2024 21:22:46.703: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:46.704: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:46.704: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:46.704: dd.a0 - User-Name: 868102
+26/11/2024 21:22:46.705: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:46.705: dd.a0 - Store-Name: O003
+26/11/2024 21:22:46.706: dd.a0 - Store-Number: o003
+26/11/2024 21:22:46.706: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:46.706: dd.a0 - {"itemIds":["202"],"limit":1}
+26/11/2024 21:22:46.707: dd.a0 - --> END POST (29-byte body)
+26/11/2024 21:22:46.855: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/item-searches?inventoryId=100000000000029996 (148ms)
+26/11/2024 21:22:46.856: dd.a0 - Date: Tue, 26 Nov 2024 18:22:46 GMT
+26/11/2024 21:22:46.857: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:46.857: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:46.858: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:46.858: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:46.858: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:46.859: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:46.859: dd.a0 - Expires: 0
+26/11/2024 21:22:46.860: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:46.860: dd.a0 - Content-Length: 590
+26/11/2024 21:22:46.860: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:46.861: dd.a0 - [ {
+  "article" : "202",
+  "unitOfMeasureCode" : "KG",
+  "regularPrice" : 172.99,
+  "merchandiseGroupId" : "FR0905006",
+  "merchandiseGroupName" : "Томаты свежие",
+  "itemName" : "Дск Томаты 1кг",
+  "alcohol" : false,
+  "excisable" : false,
+  "allowedForInventory" : {
+    "inventoryRestriction" : "ALLOWED"
+  },
+  "itemIds" : [ "2500062" ],
+  "stock" : {
+    "value" : 34.611,
+    "dateTime" : "26.11.2024 21:22:47"
+  },
+  "activeInventories" : [ {
+    "inventoryId" : 100000000000028568,
+    "positionId" : 100000000019786903,
+    "countedQuantity" : 25.8
+  } ]
+} ]
+26/11/2024 21:22:46.862: dd.a0 - <-- END HTTP (590-byte body)
+26/11/2024 21:22:46.870: dd.a0 - --> POST http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?expand=positions&client=MDE
+26/11/2024 21:22:46.871: dd.a0 - Content-Length: 72
+26/11/2024 21:22:46.871: dd.a0 - READ_TIMEOUT: 300000
+26/11/2024 21:22:46.872: dd.a0 - WRITE_TIMEOUT: 300000
+26/11/2024 21:22:46.872: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:46.873: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:46.873: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:46.874: dd.a0 - User-Name: 868102
+26/11/2024 21:22:46.874: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:46.874: dd.a0 - Store-Name: O003
+26/11/2024 21:22:46.875: dd.a0 - Store-Number: o003
+26/11/2024 21:22:46.875: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:46.876: dd.a0 - {"deviceId":"20efb6cd81d5f9dd","creationParameters":[{"article":"202"}]}
+26/11/2024 21:22:46.876: dd.a0 - --> END POST (72-byte body)
+26/11/2024 21:22:47.023: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?expand=positions&client=MDE (146ms)
+26/11/2024 21:22:47.024: dd.a0 - Date: Tue, 26 Nov 2024 18:22:47 GMT
+26/11/2024 21:22:47.024: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:47.024: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:47.025: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:47.025: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:47.026: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:47.026: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:47.026: dd.a0 - Expires: 0
+26/11/2024 21:22:47.027: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:47.027: dd.a0 - Content-Length: 464
+26/11/2024 21:22:47.028: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:47.028: dd.a0 - [ {
+  "positionId" : 100000000022358461,
+  "stock" : {
+    "quantity" : 34.611,
+    "dateTime" : "26.11.2024 21:22:47"
+  },
+  "regularPrice" : 172.99,
+  "article" : "202",
+  "itemName" : "Дск Томаты 1кг",
+  "merchandiseGroupId" : "FR0905006",
+  "merchandiseGroupName" : "Томаты свежие",
+  "unitOfMeasureCode" : "KG",
+  "alcohol" : false,
+  "excisable" : false,
+  "itemIds" : [ "202", "2500062" ],
+  "affordances" : [ "update", "delete" ]
+} ]
+26/11/2024 21:22:47.029: dd.a0 - <-- END HTTP (464-byte body)
+26/11/2024 21:22:47.034: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376
+26/11/2024 21:22:47.035: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:47.035: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:47.036: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:47.036: dd.a0 - User-Name: 868102
+26/11/2024 21:22:47.037: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:47.037: dd.a0 - Store-Name: O003
+26/11/2024 21:22:47.037: dd.a0 - Store-Number: o003
+26/11/2024 21:22:47.038: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:47.038: dd.a0 - --> END GET
+26/11/2024 21:22:47.069: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376 (30ms)
+26/11/2024 21:22:47.070: dd.a0 - Date: Tue, 26 Nov 2024 18:22:47 GMT
+26/11/2024 21:22:47.071: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:47.071: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:47.071: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:47.072: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:47.072: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:47.073: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:47.073: dd.a0 - Expires: 0
+26/11/2024 21:22:47.073: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:47.074: dd.a0 - Content-Length: 529
+26/11/2024 21:22:47.074: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:47.075: dd.a0 - {
+  "inventories" : [ {
+    "id" : 100000000000029996,
+    "docNumber" : "O0032300013376",
+    "name" : "Check",
+    "typeCode" : "PART",
+    "originCode" : "MAN",
+    "statusCode" : "1",
+    "creationDateTime" : "26.11.2024 21:22:20",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 21:22:47",
+    "dueDate" : "29.11.2024",
+    "positionsCount" : 1,
+    "totalSum" : 0.0,
+    "createdFromSap" : false,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  } ],
+  "affordances" : [ "create-markable" ]
+}
+26/11/2024 21:22:47.075: dd.a0 - <-- END HTTP (529-byte body)
+26/11/2024 21:22:47.241: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376
+26/11/2024 21:22:47.246: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:47.248: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:47.248: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:47.249: dd.a0 - User-Name: 868102
+26/11/2024 21:22:47.250: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:47.250: dd.a0 - Store-Name: O003
+26/11/2024 21:22:47.251: dd.a0 - Store-Number: o003
+26/11/2024 21:22:47.251: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:47.252: dd.a0 - --> END GET
+26/11/2024 21:22:47.265: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376 (12ms)
+26/11/2024 21:22:47.266: dd.a0 - Date: Tue, 26 Nov 2024 18:22:47 GMT
+26/11/2024 21:22:47.267: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:47.267: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:47.268: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:47.268: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:47.268: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:47.269: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:47.269: dd.a0 - Expires: 0
+26/11/2024 21:22:47.270: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:47.270: dd.a0 - Content-Length: 529
+26/11/2024 21:22:47.271: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:47.271: dd.a0 - {
+  "inventories" : [ {
+    "id" : 100000000000029996,
+    "docNumber" : "O0032300013376",
+    "name" : "Check",
+    "typeCode" : "PART",
+    "originCode" : "MAN",
+    "statusCode" : "1",
+    "creationDateTime" : "26.11.2024 21:22:20",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 21:22:47",
+    "dueDate" : "29.11.2024",
+    "positionsCount" : 1,
+    "totalSum" : 0.0,
+    "createdFromSap" : false,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  } ],
+  "affordances" : [ "create-markable" ]
+}
+26/11/2024 21:22:47.272: dd.a0 - <-- END HTTP (529-byte body)
+26/11/2024 21:22:47.274: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd
+26/11/2024 21:22:47.275: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:47.275: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:47.276: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:47.276: dd.a0 - User-Name: 868102
+26/11/2024 21:22:47.277: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:47.277: dd.a0 - Store-Name: O003
+26/11/2024 21:22:47.278: dd.a0 - Store-Number: o003
+26/11/2024 21:22:47.278: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:47.279: dd.a0 - --> END GET
+26/11/2024 21:22:47.313: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd (33ms)
+26/11/2024 21:22:47.314: dd.a0 - Date: Tue, 26 Nov 2024 18:22:47 GMT
+26/11/2024 21:22:47.315: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:47.315: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:47.316: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:47.317: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:47.318: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:47.319: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:47.319: dd.a0 - Expires: 0
+26/11/2024 21:22:47.320: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:47.321: dd.a0 - Content-Length: 464
+26/11/2024 21:22:47.322: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:47.323: dd.a0 - [ {
+  "positionId" : 100000000022358461,
+  "stock" : {
+    "quantity" : 34.611,
+    "dateTime" : "26.11.2024 21:22:47"
+  },
+  "regularPrice" : 172.99,
+  "article" : "202",
+  "itemName" : "Дск Томаты 1кг",
+  "merchandiseGroupId" : "FR0905006",
+  "merchandiseGroupName" : "Томаты свежие",
+  "unitOfMeasureCode" : "KG",
+  "alcohol" : false,
+  "excisable" : false,
+  "itemIds" : [ "202", "2500062" ],
+  "affordances" : [ "update", "delete" ]
+} ]
+26/11/2024 21:22:47.324: dd.a0 - <-- END HTTP (464-byte body)
+26/11/2024 21:22:54.746: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/
+26/11/2024 21:22:54.747: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.748: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:54.748: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:54.749: dd.a0 - User-Name: 868102
+26/11/2024 21:22:54.749: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:54.750: dd.a0 - Store-Name: O003
+26/11/2024 21:22:54.750: dd.a0 - Store-Number: o003
+26/11/2024 21:22:54.751: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.751: dd.a0 - --> END GET
+26/11/2024 21:22:54.776: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/ (24ms)
+26/11/2024 21:22:54.777: dd.a0 - Date: Tue, 26 Nov 2024 18:22:54 GMT
+26/11/2024 21:22:54.777: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.778: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.778: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:54.779: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:54.779: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:54.780: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:54.780: dd.a0 - Expires: 0
+26/11/2024 21:22:54.780: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:54.781: dd.a0 - Content-Length: 935
+26/11/2024 21:22:54.782: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:54.782: dd.a0 - [ "generators", "transfer-orders", "electronic-price-tags", "items", "tasks-shelf-life", "baskets", "five-post-parcels", "stocks", "full-inventories", "encashments", "store", "balance-message", "alcohol-stamps", "merchandise-groups", "place-groups", "write-offs", "shipments", "tasks-shelf-life-expiration-check", "alcohol-boxes", "cusp", "lockers", "mrp", "balance-recalculations", "replication", "printers", "barcodes", "price-tags-verifications", "price-changes", "incomings", "receipt-journal", "suppliers", "alco-platform", "reports", "mark-platform", "shipment-requests", "gift-sets", "order-request-templates", "local-inventories-mrm", "tasks-virtual-baking-stock-taking", "price-tags", "cises", "retail-turnovers", "markdowns", "tasks", "cashier-recalculations", "balance", "actuator", "alcohol-stamps-queries", "labels", "reclamations", "local-inventories", "order-requests", "order-request-positions", "employees", "orders" ]
+26/11/2024 21:22:54.783: dd.a0 - <-- END HTTP (935-byte body)
+26/11/2024 21:22:54.786: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/tasks/active?onlyCount=true
+26/11/2024 21:22:54.786: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/write-offs/count
+26/11/2024 21:22:54.787: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.788: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:54.786: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/prices/changes/count
+26/11/2024 21:22:54.790: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:54.786: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/incomings?archive=false&deliveryFromDate=26.11.2024&deliveryToDate=27.11.2024
+26/11/2024 21:22:54.786: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories/count
+26/11/2024 21:22:54.790: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.787: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.792: dd.a0 - READ_TIMEOUT: 120000
+26/11/2024 21:22:54.792: dd.a0 - User-Name: 868102
+26/11/2024 21:22:54.797: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:54.795: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:54.799: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:54.796: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:54.797: dd.a0 - WRITE_TIMEOUT: 30000
+26/11/2024 21:22:54.792: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.798: dd.a0 - Store-Name: O003
+26/11/2024 21:22:54.799: dd.a0 - User-Name: 868102
+26/11/2024 21:22:54.801: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:54.802: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.803: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:54.804: dd.a0 - Store-Number: o003
+26/11/2024 21:22:54.806: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:54.807: dd.a0 - User-Name: 868102
+26/11/2024 21:22:54.812: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:54.812: dd.a0 - Store-Name: O003
+26/11/2024 21:22:54.810: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.814: dd.a0 - --> END GET
+26/11/2024 21:22:54.809: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:54.810: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:54.813: dd.a0 - Store-Number: o003
+26/11/2024 21:22:54.812: dd.a0 - Store-Name: O003
+26/11/2024 21:22:54.820: dd.a0 - Store-Number: o003
+26/11/2024 21:22:54.818: dd.a0 - User-Name: 868102
+26/11/2024 21:22:54.819: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.816: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:54.826: dd.a0 - User-Name: 868102
+26/11/2024 21:22:54.822: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.823: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:54.824: dd.a0 - --> END GET
+26/11/2024 21:22:54.831: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/write-offs/count (16ms)
+26/11/2024 21:22:54.827: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:54.834: dd.a0 - Store-Name: O003
+26/11/2024 21:22:54.830: dd.a0 - Store-Name: O003
+26/11/2024 21:22:54.832: dd.a0 - Date: Tue, 26 Nov 2024 18:22:55 GMT
+26/11/2024 21:22:54.842: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.837: dd.a0 - Store-Number: o003
+26/11/2024 21:22:54.839: dd.a0 - Store-Number: o003
+26/11/2024 21:22:54.828: dd.a0 - --> END GET
+26/11/2024 21:22:54.843: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.845: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.850: dd.a0 - --> END GET
+26/11/2024 21:22:54.848: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:54.854: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:54.845: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.855: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:54.857: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:54.858: dd.a0 - Expires: 0
+26/11/2024 21:22:54.857: dd.a0 - --> END GET
+26/11/2024 21:22:54.859: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:54.862: dd.a0 - Content-Length: 2
+26/11/2024 21:22:54.862: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:54.863: dd.a0 - 81
+26/11/2024 21:22:54.866: dd.a0 - <-- END HTTP (2-byte body)
+26/11/2024 21:22:54.887: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/prices/changes/count (40ms)
+26/11/2024 21:22:54.888: dd.a0 - Date: Tue, 26 Nov 2024 18:22:55 GMT
+26/11/2024 21:22:54.889: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.890: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.891: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:54.892: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:54.892: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:54.894: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/tasks/active?onlyCount=true (62ms)
+26/11/2024 21:22:54.893: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:54.894: dd.a0 - Date: Tue, 26 Nov 2024 18:22:55 GMT
+26/11/2024 21:22:54.895: dd.a0 - Expires: 0
+26/11/2024 21:22:54.897: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:54.896: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.899: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.899: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:54.900: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:54.900: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:54.901: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:54.902: dd.a0 - Expires: 0
+26/11/2024 21:22:54.898: dd.a0 - Content-Length: 1
+26/11/2024 21:22:54.902: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:54.896: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/count (34ms)
+26/11/2024 21:22:54.904: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:54.905: dd.a0 - Content-Length: 22
+26/11/2024 21:22:54.907: dd.a0 - Date: Tue, 26 Nov 2024 18:22:55 GMT
+26/11/2024 21:22:54.908: dd.a0 - 0
+26/11/2024 21:22:54.911: dd.a0 - <-- END HTTP (1-byte body)
+26/11/2024 21:22:54.910: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.913: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.908: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:54.915: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:54.916: dd.a0 - {
+  "tasksCount" : 1
+}
+26/11/2024 21:22:54.918: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:54.919: dd.a0 - <-- END HTTP (22-byte body)
+26/11/2024 21:22:54.920: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:54.923: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:54.925: dd.a0 - Expires: 0
+26/11/2024 21:22:54.926: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:54.927: dd.a0 - Content-Length: 67
+26/11/2024 21:22:54.928: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:54.930: dd.a0 - {
+  "localInventoriesCount" : 3,
+  "markableInventoriesCount" : 0
+}
+26/11/2024 21:22:54.931: dd.a0 - <-- END HTTP (67-byte body)
+26/11/2024 21:22:54.936: dd.a0 - --> PATCH http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions/100000000022358461
+26/11/2024 21:22:54.937: dd.a0 - Content-Length: 71
+26/11/2024 21:22:54.938: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:54.939: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:54.940: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:54.940: dd.a0 - User-Name: 868102
+26/11/2024 21:22:54.941: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:54.942: dd.a0 - Store-Name: O003
+26/11/2024 21:22:54.942: dd.a0 - Store-Number: o003
+26/11/2024 21:22:54.943: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:54.943: dd.a0 - {"deviceId":"20efb6cd81d5f9dd","countedQuantity":34.611,"client":"MDE"}
+26/11/2024 21:22:54.944: dd.a0 - --> END PATCH (71-byte body)
+26/11/2024 21:22:55.093: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions/100000000022358461 (148ms)
+26/11/2024 21:22:55.094: dd.a0 - Date: Tue, 26 Nov 2024 18:22:55 GMT
+26/11/2024 21:22:55.094: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:55.095: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:55.095: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:55.096: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:55.096: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:55.096: dd.a0 - Expires: 0
+26/11/2024 21:22:55.097: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:55.097: dd.a0 - Content-Length: 0
+26/11/2024 21:22:55.098: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:55.099: dd.a0 - <-- END HTTP (0-byte body)
+26/11/2024 21:22:55.110: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376
+26/11/2024 21:22:55.113: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:55.114: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:55.117: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:55.118: dd.a0 - User-Name: 868102
+26/11/2024 21:22:55.119: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:55.119: dd.a0 - Store-Name: O003
+26/11/2024 21:22:55.120: dd.a0 - Store-Number: o003
+26/11/2024 21:22:55.121: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:55.121: dd.a0 - --> END GET
+26/11/2024 21:22:55.137: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376 (15ms)
+26/11/2024 21:22:55.138: dd.a0 - Date: Tue, 26 Nov 2024 18:22:55 GMT
+26/11/2024 21:22:55.139: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:55.139: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:55.140: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:55.140: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:55.141: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:55.142: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:55.142: dd.a0 - Expires: 0
+26/11/2024 21:22:55.143: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:55.144: dd.a0 - Content-Length: 529
+26/11/2024 21:22:55.145: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:55.146: dd.a0 - {
+  "inventories" : [ {
+    "id" : 100000000000029996,
+    "docNumber" : "O0032300013376",
+    "name" : "Check",
+    "typeCode" : "PART",
+    "originCode" : "MAN",
+    "statusCode" : "1",
+    "creationDateTime" : "26.11.2024 21:22:20",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 21:22:55",
+    "dueDate" : "29.11.2024",
+    "positionsCount" : 1,
+    "totalSum" : 0.0,
+    "createdFromSap" : false,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  } ],
+  "affordances" : [ "create-markable" ]
+}
+26/11/2024 21:22:55.147: dd.a0 - <-- END HTTP (529-byte body)
+26/11/2024 21:22:55.151: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd
+26/11/2024 21:22:55.152: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:55.152: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:55.153: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:55.155: dd.a0 - User-Name: 868102
+26/11/2024 21:22:55.155: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:55.156: dd.a0 - Store-Name: O003
+26/11/2024 21:22:55.158: dd.a0 - Store-Number: o003
+26/11/2024 21:22:55.162: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:55.167: dd.a0 - --> END GET
+26/11/2024 21:22:55.164: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/incomings?archive=false&deliveryFromDate=26.11.2024&deliveryToDate=27.11.2024 (311ms)
+26/11/2024 21:22:55.169: dd.a0 - Date: Tue, 26 Nov 2024 18:22:55 GMT
+26/11/2024 21:22:55.169: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:55.170: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:55.170: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:55.171: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:55.171: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:55.172: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:55.173: dd.a0 - Expires: 0
+26/11/2024 21:22:55.173: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:55.174: dd.a0 - Content-Length: 15072
+26/11/2024 21:22:55.174: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:55.178: dd.a0 - [ {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094935,
+  "orderNumber" : "7538699791",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "ООО \"ЮВЕНТА И К\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 12,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "number" : "ЮВ-00502481",
+      "date" : "27.11.2024",
+      "blockedByEgais" : false
+    },
+    "packingList" : {
+      "number" : "ЮВ-00502481"
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "consignmentNote" : "ЮВ-00502481",
+  "controlCisScanRequired" : false,
+  "affordances" : [ "scan-pallets", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094928,
+  "orderNumber" : "7538699789",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "PROGRESS",
+  "supplierName" : "ООО \"Молочный дом\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 2,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "number" : "123515",
+      "date" : "27.11.2024",
+      "blockedByEgais" : false
+    },
+    "packingList" : {
+      "number" : "123515"
+    },
+    "veterinaryCertificates" : {
+      "status" : "Нет",
+      "statusType" : "NOT_EXIST"
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : true
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "consignmentNote" : "123515",
+  "controlCisScanRequired" : false,
+  "affordances" : [ "bind-veterinary-certificates", "prerelease-check", "request-veterinary-certificates", "release", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094930,
+  "orderNumber" : "7538699784",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "PROGRESS",
+  "supplierName" : "АО \"ЛИМАК\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 7,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "number" : "4000034206/24",
+      "date" : "27.11.2024",
+      "blockedByEgais" : false
+    },
+    "packingList" : {
+      "number" : "4000034206/24"
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "consignmentNote" : "4000034206/24",
+  "controlCisScanRequired" : false,
+  "affordances" : [ "release", "scan-pallets", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094769,
+  "orderNumber" : "7537855837",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "ООО \"ПЕПСИКО ХОЛДИНГС\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 3,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "blockedByEgais" : false
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "controlCisScanRequired" : false,
+  "affordances" : [ "scan-pallets", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094912,
+  "orderNumber" : "7538699788",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "ООО \"КУРСКОЕ МОЛОКО\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 8,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "blockedByEgais" : false
+    },
+    "veterinaryCertificates" : {
+      "status" : "Ручной подбор",
+      "statusType" : "MANUAL_SELECTION"
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "controlCisScanRequired" : false,
+  "affordances" : [ "bind-veterinary-certificates", "request-veterinary-certificates", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094916,
+  "orderNumber" : "7538699779",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "АО \"КУРСКХЛЕБ\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 18,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "blockedByEgais" : false
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "controlCisScanRequired" : false,
+  "affordances" : [ "scan-pallets", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094919,
+  "orderNumber" : "7538699753",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "АО \"ПРОЕКТ \"СВЕЖИЙ ХЛЕБ\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 16,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "blockedByEgais" : false
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "controlCisScanRequired" : false,
+  "affordances" : [ "scan-pallets", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094920,
+  "orderNumber" : "7538699756",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "АО \"ПРОЕКТ \"СВЕЖИЙ ХЛЕБ\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 2,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "blockedByEgais" : false
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "controlCisScanRequired" : false,
+  "affordances" : [ "scan-pallets", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094922,
+  "orderNumber" : "7538699761",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "АО \"МОЛВЕСТ\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 12,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "blockedByEgais" : false
+    },
+    "veterinaryCertificates" : {
+      "status" : "Есть",
+      "statusType" : "EXIST"
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "controlCisScanRequired" : false,
+  "affordances" : [ "bind-veterinary-certificates", "request-veterinary-certificates", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094925,
+  "orderNumber" : "7538699792",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "ООО \"ЛГ\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 3,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "number" : "128772",
+      "date" : "27.11.2024",
+      "blockedByEgais" : false
+    },
+    "packingList" : {
+      "number" : "126253"
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : true
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "consignmentNote" : "128772",
+  "controlCisScanRequired" : false,
+  "affordances" : [ "scan-pallets", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094927,
+  "orderNumber" : "7538408356",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "ООО \"ЛЕБЕДЯНЬМОЛОКО\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "27.11.2024 00:00:00",
+  "positionsCount" : 6,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "number" : "1459167",
+      "date" : "27.11.2024",
+      "blockedByEgais" : false
+    },
+    "packingList" : {
+      "number" : "1459167"
+    },
+    "veterinaryCertificates" : {
+      "status" : "Нет",
+      "statusType" : "NOT_EXIST"
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : true
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "consignmentNote" : "1459167",
+  "controlCisScanRequired" : false,
+  "affordances" : [ "bind-veterinary-certificates", "request-veterinary-certificates", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094827,
+  "orderNumber" : "7538113010",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "АО \"ВБД\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "26.11.2024 00:00:00",
+  "positionsCount" : 1,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "blockedByEgais" : false
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "controlCisScanRequired" : false,
+  "affordances" : [ "scan-pallets", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094828,
+  "orderNumber" : "7538179533",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "АО \"ВБД\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "26.11.2024 00:00:00",
+  "positionsCount" : 4,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "blockedByEgais" : false
+    },
+    "veterinaryCertificates" : {
+      "status" : "Нет",
+      "statusType" : "NOT_EXIST"
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "controlCisScanRequired" : false,
+  "affordances" : [ "bind-veterinary-certificates", "request-veterinary-certificates", "update-logistic-unit-violations", "update-logistic-units" ]
+}, {
+  "schema" : "IncomingResource",
+  "id" : 100000000000094848,
+  "orderNumber" : "7538179546",
+  "positionsType" : "NONFROV",
+  "hasReleasedReclamations" : false,
+  "status" : "OPENED",
+  "supplierName" : "ООО \"ЛЕБЕДЯНЬМОЛОКО\"",
+  "type" : {
+    "code" : "OR",
+    "name" : "ВП"
+  },
+  "deliveryDateTime" : "26.11.2024 00:00:00",
+  "positionsCount" : 5,
+  "palletsCount" : 0,
+  "alcoholContentCode" : " ",
+  "hasVeterinaryReturns" : false,
+  "hasNotDeletedReclamations" : false,
+  "documents" : {
+    "waybill" : {
+      "blockedByEgais" : false
+    },
+    "veterinaryCertificates" : {
+      "status" : "Нет",
+      "statusType" : "NOT_EXIST"
+    },
+    "hasElectronicPackingList" : false,
+    "hasUniversalTransferDocument" : false
+  },
+  "releaseWithPassword" : true,
+  "electronicWaybillNumber" : " ",
+  "electronicWaybillSeals" : " ",
+  "logisticUnitsCount" : 0,
+  "actualPackingUnitsCount" : 0,
+  "controlCisScanRequired" : false,
+  "affordances" : [ "bind-veterinary-certificates", "request-veterinary-certificates", "update-logistic-unit-violations", "update-logistic-units" ]
+} ]
+26/11/2024 21:22:55.180: dd.a0 - <-- END HTTP (15072-byte body)
+26/11/2024 21:22:55.198: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd (30ms)
+26/11/2024 21:22:55.199: dd.a0 - Date: Tue, 26 Nov 2024 18:22:55 GMT
+26/11/2024 21:22:55.200: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:55.200: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:55.201: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:55.201: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:55.202: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:55.202: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:55.203: dd.a0 - Expires: 0
+26/11/2024 21:22:55.203: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:55.204: dd.a0 - Content-Length: 558
+26/11/2024 21:22:55.204: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:55.205: dd.a0 - [ {
+  "positionId" : 100000000022358461,
+  "countedQuantity" : 34.611,
+  "stock" : {
+    "quantity" : 34.611,
+    "dateTime" : "26.11.2024 21:22:55"
+  },
+  "regularPrice" : 172.99,
+  "article" : "202",
+  "lastChangeForCurrentDeviceDateTime" : "26.11.2024 21:22:55",
+  "itemName" : "Дск Томаты 1кг",
+  "merchandiseGroupId" : "FR0905006",
+  "merchandiseGroupName" : "Томаты свежие",
+  "unitOfMeasureCode" : "KG",
+  "alcohol" : false,
+  "excisable" : false,
+  "itemIds" : [ "202", "2500062" ],
+  "affordances" : [ "update", "delete" ]
+} ]
+26/11/2024 21:22:55.206: dd.a0 - <-- END HTTP (558-byte body)
+26/11/2024 21:22:56.418: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376
+26/11/2024 21:22:56.420: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:56.421: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:56.422: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:56.423: dd.a0 - User-Name: 868102
+26/11/2024 21:22:56.424: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:56.424: dd.a0 - Store-Name: O003
+26/11/2024 21:22:56.424: dd.a0 - Store-Number: o003
+26/11/2024 21:22:56.430: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:56.432: dd.a0 - --> END GET
+26/11/2024 21:22:56.456: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories?docNumber=O0032300013376 (23ms)
+26/11/2024 21:22:56.456: dd.a0 - Date: Tue, 26 Nov 2024 18:22:56 GMT
+26/11/2024 21:22:56.457: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:56.457: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:56.458: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:56.458: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:56.459: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:56.459: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:56.459: dd.a0 - Expires: 0
+26/11/2024 21:22:56.460: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:56.460: dd.a0 - Content-Length: 529
+26/11/2024 21:22:56.461: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:56.461: dd.a0 - {
+  "inventories" : [ {
+    "id" : 100000000000029996,
+    "docNumber" : "O0032300013376",
+    "name" : "Check",
+    "typeCode" : "PART",
+    "originCode" : "MAN",
+    "statusCode" : "1",
+    "creationDateTime" : "26.11.2024 21:22:20",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 21:22:55",
+    "dueDate" : "29.11.2024",
+    "positionsCount" : 1,
+    "totalSum" : 0.0,
+    "createdFromSap" : false,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  } ],
+  "affordances" : [ "create-markable" ]
+}
+26/11/2024 21:22:56.462: dd.a0 - <-- END HTTP (529-byte body)
+26/11/2024 21:22:56.464: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd
+26/11/2024 21:22:56.465: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:56.465: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:22:56.466: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:22:56.466: dd.a0 - User-Name: 868102
+26/11/2024 21:22:56.467: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:22:56.467: dd.a0 - Store-Name: O003
+26/11/2024 21:22:56.467: dd.a0 - Store-Number: o003
+26/11/2024 21:22:56.468: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:22:56.468: dd.a0 - --> END GET
+26/11/2024 21:22:56.490: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/positions?deviceId=20efb6cd81d5f9dd (20ms)
+26/11/2024 21:22:56.490: dd.a0 - Date: Tue, 26 Nov 2024 18:22:56 GMT
+26/11/2024 21:22:56.490: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:22:56.491: dd.a0 - Content-Type: application/json
+26/11/2024 21:22:56.491: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:22:56.492: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:22:56.492: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:22:56.492: dd.a0 - Pragma: no-cache
+26/11/2024 21:22:56.493: dd.a0 - Expires: 0
+26/11/2024 21:22:56.493: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:22:56.493: dd.a0 - Content-Length: 558
+26/11/2024 21:22:56.494: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:22:56.494: dd.a0 - [ {
+  "positionId" : 100000000022358461,
+  "countedQuantity" : 34.611,
+  "stock" : {
+    "quantity" : 34.611,
+    "dateTime" : "26.11.2024 21:22:55"
+  },
+  "regularPrice" : 172.99,
+  "article" : "202",
+  "lastChangeForCurrentDeviceDateTime" : "26.11.2024 21:22:55",
+  "itemName" : "Дск Томаты 1кг",
+  "merchandiseGroupId" : "FR0905006",
+  "merchandiseGroupName" : "Томаты свежие",
+  "unitOfMeasureCode" : "KG",
+  "alcohol" : false,
+  "excisable" : false,
+  "itemIds" : [ "202", "2500062" ],
+  "affordances" : [ "update", "delete" ]
+} ]
+26/11/2024 21:22:56.495: dd.a0 - <-- END HTTP (558-byte body)
+26/11/2024 21:23:03.153: dd.a0 - --> PUT http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/release
+26/11/2024 21:23:03.158: dd.a0 - Content-Length: 0
+26/11/2024 21:23:03.161: dd.a0 - Content-Type: application/json
+26/11/2024 21:23:03.162: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:23:03.162: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:23:03.163: dd.a0 - User-Name: 868102
+26/11/2024 21:23:03.163: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:23:03.164: dd.a0 - Store-Name: O003
+26/11/2024 21:23:03.164: dd.a0 - Store-Number: o003
+26/11/2024 21:23:03.164: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:23:03.165: dd.a0 - --> END PUT (0-byte body)
+26/11/2024 21:23:04.734: dd.a0 - <-- 200 OK http://bo-o003.x5.ru:8096/api/local-inventories/100000000000029996/release (1568ms)
+26/11/2024 21:23:04.735: dd.a0 - Date: Tue, 26 Nov 2024 18:23:03 GMT
+26/11/2024 21:23:04.736: dd.a0 - BO-Version: 12.08.101-SP71
+26/11/2024 21:23:04.736: dd.a0 - Content-Type: application/json
+26/11/2024 21:23:04.737: dd.a0 - X-Content-Type-Options: nosniff
+26/11/2024 21:23:04.737: dd.a0 - X-XSS-Protection: 1; mode=block
+26/11/2024 21:23:04.738: dd.a0 - Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+26/11/2024 21:23:04.738: dd.a0 - Pragma: no-cache
+26/11/2024 21:23:04.739: dd.a0 - Expires: 0
+26/11/2024 21:23:04.739: dd.a0 - X-Frame-Options: SAMEORIGIN
+26/11/2024 21:23:04.740: dd.a0 - Content-Length: 101
+26/11/2024 21:23:04.740: dd.a0 - Server: Jetty(9.4.27.v20200227)
+26/11/2024 21:23:04.741: dd.a0 - {
+  "message" : "Инвентаризация №O0032300013376 успешно проведена."
+}
+26/11/2024 21:23:04.741: dd.a0 - <-- END HTTP (101-byte body)
+26/11/2024 21:23:04.906: dd.a0 - --> GET http://bo-o003.x5.ru:8096/api/local-inventories?statusCodes=0,1,6,7
+26/11/2024 21:23:04.908: dd.a0 - Content-Type: application/json
+26/11/2024 21:23:04.909: dd.a0 - Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4NjgxMDIiLCJsb2dpblRpbWUiOjE3MzI2NDUzMTE1NDgsInR5cGUiOiIwIiwiaWF0IjoxNzMyNjQ1MzExfQ.z234T1uo8VwP6tHvPhWAapA-sU3wUZrGW-AROGIs0nc
+26/11/2024 21:23:04.910: dd.a0 - Version-Name: v12.08.101-R40
+26/11/2024 21:23:04.911: dd.a0 - User-Name: 868102
+26/11/2024 21:23:04.912: dd.a0 - User-Role: StoreDirector
+26/11/2024 21:23:04.912: dd.a0 - Store-Name: O003
+26/11/2024 21:23:04.913: dd.a0 - Store-Number: o003
+26/11/2024 21:23:04.913: dd.a0 - Store-BO-Version: 12.08.101-SP71
+26/11/2024 21:23:04.914: dd.a0 - --> END GET

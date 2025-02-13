@@ -1,0 +1,8 @@
+django
+tzdata
+celery
+requests
+python-telegram-bot
+asgiref
+pillow==11.1.0
+qrcode==8.0

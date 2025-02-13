@@ -1,0 +1,64 @@
+{% extends 'Core/app_template.html' %}
+{% block css %}
+    <style>
+        /* Стили для таблицы */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .custom-table th, .custom-table td {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .custom-table th {
+            background-color: #f2f2f2;
+        }
+
+        /* Стили для ссылок */
+        .custom-link {
+            color: #6a0dad;
+            text-decoration: none;
+        }
+
+        .custom-link:hover {
+            text-decoration: underline;
+        }
+
+        .create-warehouse-link {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #6a0dad;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .create-warehouse-link:hover {
+            background-color: #530b8a;
+        }
+    </style>
+{% endblock %}
+{% block main_content %}
+    <h1>Список складов</h1>
+    <table class="custom-table">
+        <tr>
+            <th>ID</th>
+            <th>Наименование</th>
+            <th>Действия</th>
+        </tr>
+        {% for warehouse in warehouses %}
+        <tr>
+            <td>{{ warehouse.id }}</td>
+            <td>{{ warehouse.name }}</td>
+            <td><a href="/GK/warehouses/{{ warehouse.id }}/shelves/" class="custom-link">Полки</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/GK/warehouses/create" class="create-warehouse-link">Создать склад</a>
+{% endblock %}

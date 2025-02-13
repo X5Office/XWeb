@@ -1,0 +1,24 @@
+{% extends 'Core/app_template.html' %}
+{% load static %}
+{% block main_content %}
+{% for item in offs %}
+<a href="/GK/tools/fpdd/{{ item.id }}" class="document-link">
+  <div class="document-card">
+    <div class="document-header">
+      <div class="document-title">
+        <span class="document-id">{{ item.name }}</span>
+        <span class="document-date">{{ item.comment }}</span>
+      </div>
+      <div class="document-status">
+            Доставка
+      </div>
+    </div>
+    <div class="document-info">
+      <div class="info-item">Всего позиций: {{ item.positionsCount }}</div>
+      <div class="info-item">Итоговая сумма: {{ item.totalSum }} руб</div>
+    </div>
+  </div>
+</a>
+
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends 'Core/app_template.html' %}
+{% load static %}
+{% block main_content %}
+
+<div class="document-card">
+    <div class="document-title">
+        <span class="document-id">
+            {{ off.name }}
+        </span>
+        <span class="document-data">
+            {{ off.comment }}
+        </span>
+    </div>
+    <br>
+    <a>
+        <button type="button" class="generate-button" data-url="x">Создать ЛИ коррекции</button>
+    </a>
+    <br>
+    <a>
+        <button type="button" class="generate-button" data-url="x">Провести ЛИ коррекции</button>
+    </a>
+    <br>
+    <a>
+        <button type="button" class="generate-button" data-url="x">Провести документ ЭД</button>
+    </a>
+</div>
+<div class="table-container">
+    <h3>Документ списания в GK</h3>
+    <table>
+        <thead>
+            <tr>
+                <td>PLU</td>
+                <td>Наименование</td>
+                <td>Цена, ₽</td>
+                <td>Количество, уе</td>
+                <td>Остаток, уе</td>
+                <td>Сумма, ₽</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in positions %}
+            <tr>
+                <td>{{ item.article }}</td>
+                <td>{{ item.itemName }}</td>
+                <td>{{ item.unitPrice }}</td>
+                <td>{{ item.countedQuantity }}</td>
+                <td>{{ item.stockQuantity }}</td>
+                <td>{{ item.totalSum }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="table-container">
+    <h3>Документ постановки на остаток в GK</h3>
+    {% if eddc_i %}
+    <table>
+        <thead>
+            <tr>
+                <td>PLU</td>
+                <td>Наименование</td>
+                <td>Цена, ₽</td>
+                <td>Количество, уе</td>
+                <td>Сумма, ₽</td>
+            </tr>
+        </thead>
+    </table>
+    {% elif eddc_er %}
+        Работа с этим списанием заблокирована, обратитесь в службу технической поддержки X5 WGK
+    {% else %}
+    Нет информации о связанных документах!
+    {% endif %}
+</div>
+
+
+{% endblock %}

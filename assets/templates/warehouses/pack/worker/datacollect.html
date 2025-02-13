@@ -1,0 +1,180 @@
+{% extends 'Core/app_template.html' %}
+{% load static %}
+{% block js_s %}
+    <script src="{% static 'js/qr-gen.js' %}"></script>
+{% endblock %}
+{% block css %}
+    <style>
+        /* Стили для карточки товара */
+        .product-card {
+            align-items: top;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 87%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .product-card-header {
+            display: flex;
+            align-items: top;
+            width: 100%;
+        }
+
+        .product-card-header img {
+            width: 20%;
+            border: 2px solid #EAD3EF;
+            border-radius: 12px;
+            margin-right: 2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .product-card-header .description {
+            flex-grow: 1;
+        }
+
+        .product-card-header .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .product-card-header .details {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .param_table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .param_table td {
+            width: 50%;
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+
+        .outline_text {
+            color: #CCC1E3;
+            margin: 2px 0;
+        }
+
+        .param_text {
+            color: #4C105A;
+            margin: 2px 0;
+        }
+
+        /* Стили для формы */
+        .custom-form {
+            display: flex;
+            flex-direction: column;
+            width: 87%;
+            max-width: 400px;
+            margin: 20px auto 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .custom-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+
+        .custom-form button {
+            background-color: #6a0dad;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .custom-form button:hover {
+            background-color: #530b8a;
+        }
+
+        /* Стили для QR-кода */
+        #qrcode {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+{% endblock %}
+{% block main_content %}
+    <div class="product-card">
+        <img class="product-card-header" src="http://media.x5.ru/rest/x5/cdnplu?format=7&plu={{ item.plu }}">
+        <div>
+            <div class="description">
+                <div class="title">{{ item.name }}</div>
+            </div>
+        </div>
+        <table class="param_table">
+            <tr>
+                <td>
+                    <p class="outline_text">PLU</p>
+                    <p class="param_text">{{ item.plu }}</p>
+                </td>
+                <td>
+                    <p class="outline_text">Остаток товара в складе</p>
+                    <p class="param_text">{{ item.total_stock }}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="outline_text">Размещения в складе:</p>
+                    <p class="param_text">{% for record in accommodations %}
+                        {{ record.shelf.name }} - {{ record.stock_on_shelf }} шт<br>
+                    {% endfor %}</p>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+
+        <!-- New fields for id and stock -->
+        <form method="post" class="custom-form">
+            {% csrf_token %}
+            <div>
+                <input type="hidden" id="id" name="id" value="{{ item.id }}">
+            </div>
+            <div>
+                <input type="number" id="stock" name="stock" value="{{ item.stock }}">
+            </div>
+            <button type="submit">Далее</button>
+        </form>
+
+        <!-- QR-код -->
+        <div id="qrcode"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var text = '{{ item.itemIds.0 }}';
+            var qrcode = new QRCode(document.getElementById('qrcode'), {
+                text: text,
+                width: 128,
+                height: 128,
+                colorDark: '#000000',
+                colorLight: '#ffffff',
+                correctLevel: QRCode.CorrectLevel.H
+            });
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'Core/app_template.html' %}
+{% block main_content %}
+<table>
+    <thead>
+        <tr>
+            <th>PLU</th>
+            <th>Наименование</th>
+            <th>Количество к выкладке</th>
+            <th>Суммарный остаток на складе</th>
+            <th>Продукты</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in inventory_items %}
+        <tr>
+            <td>{{ item.plu }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.quantity_to_display }}</td>
+            <td>{{ item.total_stock }}</td>
+            <td>
+                <ul>
+                    {% for product in item.accommodations.all %}
+                    <a href='/GK/warehouses/shelf/{{ product.shelf.id }}/'><li>{{ product.shelf.name }} - {{ product.stock_on_shelf }}</li></a>
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

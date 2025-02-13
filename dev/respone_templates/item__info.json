@@ -1,0 +1,52 @@
+{
+  "article" : "87457",
+  "shortName" : "ШИШКИН ЛЕС Вода СПОРТнегаз 0.4л",
+  "fullName" : "ШИШКИН ЛЕС Вода СПОРТнегаз 0.4л",
+  "merchandiseGroupId" : "FD0802002",
+  "merchandiseGroupName" : "Питьевая вода",
+  "unitOfMeasureCode" : "ST",
+  "shelfLife" : 545,
+  "termOfInsurance" : 1,
+  "minMarkdownPrice" : 37.79,
+  "maxMarkdownPrice" : 50.39,
+  "excisable" : false,
+  "netWeight" : 0.4,
+  "stock" : -2.0,
+  "regularPrice" : 50.39,
+  "sellingPrice" : 44.99,
+  "assortmentType" : "Вне асс.",
+  "customerChoice" : false,
+  "markingCategory" : "WATER2",
+  "itemIds" : [ "4605490000279", "4605490000408" ],
+  "promo" : {
+    "sellingPriceExpirationDate" : "17.09.2024",
+    "promoPrice" : true,
+    "promoType" : "PROMO",
+    "promoTypeDetails" : {
+      "promoType" : "PROMO",
+      "isPromo" : true
+    },
+    "edlp" : false,
+    "stopperCode" : "С",
+    "verificationPrice" : 44.99,
+    "expirationDate" : "17.09.2024",
+    "effectiveDate" : "11.09.2024"
+  },
+  "thirtyDaysAvgSales" : 3.759,
+  "labelPrintingAllowed" : [ "DEFROSTING", "OWN_MANUFACTURING" ],
+  "assortmentPrintingAllowed" : false,
+  "priceTagPrintingAllowed" : true,
+  "createMarkdownAllowed" : true,
+  "createMarkableMarkdownWithoutDatamatrix" : false,
+  "thirtyDaysSumWriteOff" : 0.0,
+  "layoutsForMobilePrinter" : [ "A4", "A5", "A7", "Small_micro", "Small", "Small_sostav", "Small_mini" ],
+  "hasLocations" : false,
+  "itemAllowedForSale" : true,
+  "defaultLayoutForMobilePrinter" : "Small_mini",
+  "lastIncoming" : {
+    "pallets" : [ {
+      "sscc" : "00046060385510324654",
+      "dnumber" : "D0005158597"
+    } ]
+  }
+}

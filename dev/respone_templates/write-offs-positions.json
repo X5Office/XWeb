@@ -1,0 +1,30 @@
+[
+  {
+    "writeOffId": 100000000000005448,
+    "positionId": 1,
+    "article": "12345",
+    "itemName": "Товар",
+    "countedQuantity": 5,
+    "stockQuantity": 10,
+    "allowedWriteOffQuantity": 5,
+    "unitPrice": 100.0,
+    "totalSum": 500.0,
+    "affordances": ["update", "delete"],
+    "stacks": [],
+    "barcodes": []
+  },
+    {
+    "writeOffId": 100000000000005448,
+    "positionId": 1,
+    "article": "1865",
+    "itemName": "Товар",
+    "countedQuantity": 5,
+    "stockQuantity": 10,
+    "allowedWriteOffQuantity": 5,
+    "unitPrice": 100.0,
+    "totalSum": 500.0,
+    "affordances": ["update", "delete"],
+    "stacks": [],
+    "barcodes": []
+  }
+]

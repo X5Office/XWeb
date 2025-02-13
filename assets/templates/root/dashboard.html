@@ -1,0 +1,25 @@
+{% extends 'Core/app_template.html' %}
+{% block main_content %}
+<div class="button-container">
+    <div class="button-item" onclick="goToLink('/GK/products/items/')">
+        <div class="button-top">
+            <img src="/static/icon/colored/search.png" alt="Информация о товаре">
+        </div>
+        <div class="button-text">Информация о товаре</div>
+    </div>
+    <div class="button-item" onclick="goToLink('/GK/basket/')">
+        <div class="button-top">
+            <span class="badge">1</span>
+            <img src="/static/icon/colored/basket.png" alt="Icon 1">
+        </div>
+        <div class="button-text">Корзина</div>
+        
+    </div>
+
+</div>
+<script>
+    function goToLink(url) {
+  window.location.href = url;
+}
+</script>
+{% endblock %}

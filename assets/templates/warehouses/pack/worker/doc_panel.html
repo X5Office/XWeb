@@ -1,0 +1,22 @@
+{% extends 'Core/app_template.html' %}
+{% block main_content %}
+<div class="document-card">
+    <div class="document-title">
+        <span class="document-id">
+            {{ packing.id }} в складе {{ packing.warehouse }}
+        </span>
+        <span class="document-data">
+            {{ packing.status }}
+        </span>
+    </div>
+    <br>
+    <a>
+        <button type="button" class="generate-button" data-url="/GK/warehouses/1/pack/{{ packing.id }}/collect_data">Проверка ТЗ на наличие места для товара</button>
+    </a>
+    <br>
+    <a>
+        <button type="button" class="generate-button" data-url="/GK/warehouses/1/pack/{{ packing.id }}/packing">Список позиций для выкладки(ТАБЛИЦА)</button>
+    </a>
+
+</div>
+{% endblock %}

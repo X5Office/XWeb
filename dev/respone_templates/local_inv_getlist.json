@@ -1,0 +1,36 @@
+{
+  "inventories" : [ {
+    "id" : 100000000000029991,
+    "docNumber" : "O0034000023330",
+    "name" : "Кофе, какао, шоколад",
+    "typeCode" : "PART",
+    "originCode" : "AUTO",
+    "statusCode" : "1",
+    "creationDateTime" : "26.11.2024 03:22:00",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 03:22:02",
+    "dueDate" : "26.11.2024",
+    "positionsCount" : 66,
+    "totalSum" : 0.0,
+    "createdFromSap" : true,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  }, {
+    "id" : 100000000000029992,
+    "docNumber" : "O0034000023331",
+    "name" : "Сырье для напитков СП самообслуживания",
+    "typeCode" : "PART",
+    "originCode" : "AUTO",
+    "statusCode" : "0",
+    "creationDateTime" : "26.11.2024 03:22:03",
+    "startDate" : "26.11.2024",
+    "stockFixingDateTime" : "26.11.2024 03:22:03",
+    "dueDate" : "26.11.2024",
+    "positionsCount" : 14,
+    "totalSum" : 0.0,
+    "createdFromSap" : true,
+    "extended" : false,
+    "affordances" : [ "add" ]
+  } ],
+  "affordances" : [ "create-markable" ]
+}

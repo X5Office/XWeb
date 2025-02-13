@@ -1,0 +1,46 @@
+{% extends 'Core/app_template.html' %}
+{% load static %}
+{% block css %}
+        <link rel="stylesheet" href="{% static 'css/files/doc_panel.css' %}">
+{% endblock %}
+
+{% block main_content %}
+
+<div class="table-container">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Фамилия Имя</th>
+                <th>Должность</th>
+                <th>Магазин</th>
+                <th>Администратор?</th>
+                <th>В смене?</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <td>{{ user.last_name }} {{ user.first_name }}</td>
+                <td>{{ user.position }}</td>
+                <td>{{ user.sap_number }}</td>
+                <td>
+                    {% if user.is_store_admin %}
+                        Да
+                    {% else %}
+                        Нет
+                    {% endif %}
+                </td>
+                <td>
+                    {% if user.admin_mode %}
+                        Да
+                    {% else %}
+                        Нет
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'Core/app_template.html' %}
+{% load static %}
+{% block css %}
+        <link rel="stylesheet" href="{% static 'css/files/upload.css' %}">
+{% endblock %}
+{% block main_content %}
+    <div class="form-container">
+        <form method="post" enctype="multipart/form-data" class="upload-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="upload-button">Upload</button>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fileInput = document.querySelector('input[name="file"]');
+            const titleInput = document.querySelector('input[name="title"]');
+
+            fileInput.addEventListener('change', function(event) {
+                const file = event.target.files[0];
+                if (file) {
+                    titleInput.value = file.name;
+                } else {
+                    titleInput.value = '';
+                }
+            });
+        });
+    </script>
+{% endblock %}

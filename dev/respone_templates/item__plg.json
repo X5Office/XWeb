@@ -1,0 +1,20 @@
+[ {
+  "merchandiseGroupName" : "Вода+Лимонад",
+  "rackNumber" : 1,
+  "shelfNumber" : 2,
+  "positionNumber" : 3,
+  "faceQuantityWidth" : 3,
+  "faceQuantityHeight" : 1,
+  "quantityOnShelf" : 3,
+  "style" : "Ед"
+} ,
+ {
+  "merchandiseGroupName" : "Питание X5",
+  "rackNumber" : 1,
+  "shelfNumber" : 2,
+  "positionNumber" : 3,
+  "faceQuantityWidth" : 3,
+  "faceQuantityHeight" : 1,
+  "quantityOnShelf" : 3,
+  "style" : "Ед"
+} ]

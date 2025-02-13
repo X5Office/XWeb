@@ -1,0 +1,19 @@
+{% extends 'Core/app_template.html' %}
+{% block main_content %}
+<form method="post">
+{% csrf_token %}
+<div class="form-section">
+  <h3>Поиск товара</h3>
+  <div class="form-group">
+    <input type="text" id="plu" name="plu" placeholder="PLU/ШК-товара/ценники">
+  </div>
+  <div class="form-group">
+    <input type="text" id="item_name" name="item_name" placeholder="Наименование товара">
+  </div>
+  <div class="form-group">
+    <input type="number" id="max-position" name="max-position" placeholder="Количество отображаемых товаров" value="50">
+  </div>
+  <button type="submit" class="generate-button">Поиск</button>
+</div>
+</form>
+{% endblock %}

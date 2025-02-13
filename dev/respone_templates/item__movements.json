@@ -1,0 +1,1062 @@
+[ {
+  "dateTime" : "16.09.2024 13:48:15",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : -2.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 44.99,
+  "promoType" : "Промо"
+}, {
+  "dateTime" : "15.09.2024 20:41:11",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 1.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 44.99,
+  "promoType" : "Промо"
+}, {
+  "dateTime" : "14.09.2024 11:38:51",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 5.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 44.99,
+  "promoType" : "Промо"
+}, {
+  "dateTime" : "13.09.2024 19:02:33",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 7.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 44.99,
+  "promoType" : "Промо"
+}, {
+  "dateTime" : "12.09.2024 18:24:44",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 10.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 44.99,
+  "promoType" : "Промо"
+}, {
+  "dateTime" : "11.09.2024 20:04:54",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 14.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 44.99,
+  "promoType" : "Промо"
+}, {
+  "dateTime" : "10.09.2024 13:48:36",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 18.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99,
+  "promoType" : "Выгодно EDLP"
+}, {
+  "dateTime" : "09.09.2024 19:29:44",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 19.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99,
+  "promoType" : "Выгодно EDLP"
+}, {
+  "dateTime" : "08.09.2024 18:05:13",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 23.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99,
+  "promoType" : "Выгодно EDLP"
+}, {
+  "dateTime" : "07.09.2024 17:35:51",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99,
+  "promoType" : "Выгодно EDLP"
+}, {
+  "dateTime" : "06.09.2024 20:19:54",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "05.09.2024 13:02:52",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 34.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "04.09.2024 20:24:43",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 35.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "03.09.2024 16:22:34",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 37.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "02.09.2024 21:01:33",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 40.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "02.09.2024 13:58:38",
+  "type" : "Поступление товара",
+  "comment" : "00046060385510324654",
+  "quantity" : 12.0,
+  "resultStock" : 41.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "01.09.2024 15:48:12",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 29.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "01.09.2024 10:13:06",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 34.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "01.09.2024 09:38:37",
+  "type" : "Поступление товара",
+  "comment" : "00046060385510291574",
+  "quantity" : 12.0,
+  "resultStock" : 34.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "31.08.2024 20:35:54",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 22.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "31.08.2024 09:55:08",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "31.08.2024 09:41:40",
+  "type" : "Заявка",
+  "comment" : "Заявки/заказы",
+  "quantity" : 12.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "30.08.2024 19:20:43",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "29.08.2024 20:52:06",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "29.08.2024 17:38:38",
+  "type" : "Поступление товара",
+  "comment" : "00046060385510177506",
+  "quantity" : 12.0,
+  "resultStock" : 32.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "28.08.2024 20:20:42",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 21.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "28.08.2024 10:14:02",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 25.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "27.08.2024 20:02:14",
+  "type" : "Продажа (POS)",
+  "quantity" : -6.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "27.08.2024 15:04:35",
+  "type" : "Поступление товара",
+  "comment" : "00046060385510111573",
+  "quantity" : 12.0,
+  "resultStock" : 32.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "26.08.2024 20:10:33",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 20.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "26.08.2024 16:52:34",
+  "type" : "Поступление товара",
+  "comment" : "00046060385510077415",
+  "quantity" : 12.0,
+  "resultStock" : 23.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "26.08.2024 07:28:06",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 12.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "26.08.2024 07:23:16",
+  "type" : "Заявка",
+  "comment" : "Заявки/заказы",
+  "quantity" : 12.0,
+  "resultStock" : 12.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "26.08.2024 07:04:07",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 17.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "25.08.2024 19:56:26",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 12.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "25.08.2024 07:48:08",
+  "type" : "Заявка",
+  "comment" : "Заявки/заказы",
+  "quantity" : 12.0,
+  "resultStock" : 17.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "24.08.2024 19:22:11",
+  "type" : "Продажа (POS)",
+  "quantity" : -6.0,
+  "resultStock" : 17.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "23.08.2024 21:15:20",
+  "type" : "Продажа (POS)",
+  "quantity" : -7.0,
+  "resultStock" : 23.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "23.08.2024 09:09:04",
+  "type" : "Поступление товара",
+  "comment" : "00046060385509966964",
+  "quantity" : 12.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "22.08.2024 20:12:23",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 18.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "22.08.2024 10:13:04",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 23.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "21.08.2024 21:17:14",
+  "type" : "Продажа (POS)",
+  "quantity" : -6.0,
+  "resultStock" : 23.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "21.08.2024 14:15:07",
+  "type" : "Поступление товара",
+  "comment" : "00046060385509897071",
+  "quantity" : 12.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "21.08.2024 02:46:07",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 17.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "19.08.2024 15:07:13",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 17.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "18.08.2024 21:49:24",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 20.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "17.08.2024 17:34:50",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 23.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "16.08.2024 16:47:15",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "15.08.2024 18:02:01",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "15.08.2024 15:56:47",
+  "type" : "Поступление товара",
+  "comment" : "00046060385509696779",
+  "quantity" : 12.0,
+  "resultStock" : 29.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "14.08.2024 20:41:31",
+  "type" : "Продажа (POS)",
+  "quantity" : -7.0,
+  "resultStock" : 18.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "14.08.2024 10:13:04",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 25.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "13.08.2024 15:43:35",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 25.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "12.08.2024 16:55:33",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "12.08.2024 16:05:13",
+  "type" : "Поступление товара",
+  "comment" : "00046060385509601238",
+  "quantity" : 12.0,
+  "resultStock" : 29.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "12.08.2024 06:34:05",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 17.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "11.08.2024 20:01:12",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 17.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "11.08.2024 15:11:16",
+  "type" : "Поступление товара",
+  "comment" : "00046060385509557212",
+  "quantity" : 12.0,
+  "resultStock" : 19.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "10.08.2024 19:23:34",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 9.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "10.08.2024 10:12:06",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 12.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "09.08.2024 20:20:35",
+  "type" : "Продажа (POS)",
+  "quantity" : -8.0,
+  "resultStock" : 12.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "09.08.2024 10:15:06",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 20.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "08.08.2024 18:58:14",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 20.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "07.08.2024 21:16:33",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 24.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "07.08.2024 10:12:09",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "06.08.2024 18:48:54",
+  "type" : "Продажа (POS)",
+  "quantity" : -7.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "06.08.2024 09:44:48",
+  "type" : "Поступление товара",
+  "comment" : "00046060385509389013",
+  "quantity" : 24.0,
+  "resultStock" : 33.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "05.08.2024 19:23:12",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 9.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 43.99,
+  "promoType" : "Выручай-карта"
+}, {
+  "dateTime" : "05.08.2024 10:12:02",
+  "type" : "Заказ",
+  "quantity" : 24.0,
+  "resultStock" : 11.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "04.08.2024 20:45:42",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 11.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 43.99,
+  "promoType" : "Выручай-карта"
+}, {
+  "dateTime" : "03.08.2024 20:22:53",
+  "type" : "Продажа (POS)",
+  "quantity" : -9.0,
+  "resultStock" : 13.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 43.99,
+  "promoType" : "Выручай-карта"
+}, {
+  "dateTime" : "02.08.2024 21:19:04",
+  "type" : "Продажа (POS)",
+  "quantity" : -6.0,
+  "resultStock" : 22.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 43.99,
+  "promoType" : "Выручай-карта"
+}, {
+  "dateTime" : "01.08.2024 12:27:40",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 43.99,
+  "promoType" : "Выручай-карта"
+}, {
+  "dateTime" : "31.07.2024 17:46:33",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 29.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 43.99,
+  "promoType" : "Выручай-карта"
+}, {
+  "dateTime" : "29.07.2024 19:37:13",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "29.07.2024 13:54:26",
+  "type" : "Поступление товара",
+  "comment" : "00046060385509104274",
+  "quantity" : 12.0,
+  "resultStock" : 33.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "28.07.2024 18:45:00",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 21.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "28.07.2024 10:12:06",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 25.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "27.07.2024 21:01:02",
+  "type" : "Продажа (POS)",
+  "quantity" : -7.0,
+  "resultStock" : 25.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "26.07.2024 21:53:21",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 32.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "26.07.2024 13:55:03",
+  "type" : "Поступление товара",
+  "comment" : "00046060385508988857",
+  "quantity" : 12.0,
+  "resultStock" : 36.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "25.07.2024 19:39:54",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 24.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "25.07.2024 10:12:03",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "24.07.2024 21:35:12",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "24.07.2024 05:05:40",
+  "type" : "Инвентаризация",
+  "comment" : "Полная",
+  "quantity" : -1.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "23.07.2024 22:11:14",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 31.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "22.07.2024 18:03:34",
+  "type" : "Продажа (POS)",
+  "quantity" : -8.0,
+  "resultStock" : 32.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "22.07.2024 14:44:30",
+  "type" : "Поступление товара",
+  "comment" : "00046060385508830419",
+  "quantity" : 12.0,
+  "resultStock" : 36.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "21.07.2024 10:11:03",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "20.07.2024 18:52:21",
+  "type" : "Продажа (POS)",
+  "quantity" : -6.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "20.07.2024 13:42:30",
+  "type" : "Поступление товара",
+  "comment" : "00046060385508744871",
+  "quantity" : 12.0,
+  "resultStock" : 31.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "19.07.2024 21:43:14",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 22.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "19.07.2024 18:14:41",
+  "type" : "Инвентаризация",
+  "comment" : "Локальная",
+  "quantity" : 0.0,
+  "resultStock" : 25.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "19.07.2024 10:12:02",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "18.07.2024 22:02:44",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "18.07.2024 14:21:03",
+  "type" : "Поступление товара",
+  "comment" : "00046060385508670505",
+  "quantity" : 12.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "17.07.2024 20:07:55",
+  "type" : "Продажа (POS)",
+  "quantity" : -7.0,
+  "resultStock" : 18.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "17.07.2024 10:13:08",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 24.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "16.07.2024 21:37:45",
+  "type" : "Продажа (POS)",
+  "quantity" : -8.0,
+  "resultStock" : 25.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "16.07.2024 14:37:01",
+  "type" : "Поступление товара",
+  "comment" : "00046060385508596469",
+  "quantity" : 12.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "16.07.2024 05:25:07",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 21.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "15.07.2024 22:41:45",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 21.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "14.07.2024 21:06:43",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "14.07.2024 19:51:04",
+  "type" : "Поступление товара",
+  "comment" : "00046060385508520897",
+  "quantity" : 12.0,
+  "resultStock" : 27.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "14.07.2024 00:31:05",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 18.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "13.07.2024 22:17:13",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 18.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "12.07.2024 20:43:55",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 23.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "11.07.2024 21:54:56",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 26.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "11.07.2024 10:13:03",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "10.07.2024 20:57:35",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "08.07.2024 19:12:42",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 34.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "07.07.2024 21:38:31",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 35.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "06.07.2024 19:58:43",
+  "type" : "Поступление товара",
+  "comment" : "00046060385508220683",
+  "quantity" : 12.0,
+  "resultStock" : 40.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "06.07.2024 17:47:14",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 28.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 52.99
+}, {
+  "dateTime" : "05.07.2024 14:14:32",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "05.07.2024 10:12:04",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 33.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "04.07.2024 22:50:34",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 34.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "03.07.2024 19:31:11",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 39.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "03.07.2024 10:12:17",
+  "type" : "Поступление товара",
+  "quantity" : 12.0,
+  "resultStock" : 41.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "02.07.2024 20:10:53",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "02.07.2024 18:02:21",
+  "type" : "Поступление товара",
+  "quantity" : 12.0,
+  "resultStock" : 32.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "02.07.2024 10:12:03",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 22.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "01.07.2024 18:26:25",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 22.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "01.07.2024 09:16:49",
+  "type" : "Поступление товара",
+  "quantity" : 12.0,
+  "resultStock" : 24.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "30.06.2024 20:18:21",
+  "type" : "Продажа (POS)",
+  "quantity" : -9.0,
+  "resultStock" : 12.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "30.06.2024 10:13:04",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 21.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "29.06.2024 21:27:05",
+  "type" : "Продажа (POS)",
+  "quantity" : -8.0,
+  "resultStock" : 21.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "28.06.2024 22:03:13",
+  "type" : "Продажа (POS)",
+  "quantity" : -5.0,
+  "resultStock" : 29.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "27.06.2024 20:40:43",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 34.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "26.06.2024 17:31:03",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 36.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "26.06.2024 17:11:06",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 37.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "25.06.2024 14:09:14",
+  "type" : "Продажа (POS)",
+  "quantity" : -2.0,
+  "resultStock" : 37.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "24.06.2024 10:12:14",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 39.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "22.06.2024 22:02:51",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 40.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "22.06.2024 17:00:38",
+  "type" : "Поступление товара",
+  "quantity" : 12.0,
+  "resultStock" : 42.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "21.06.2024 11:05:13",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 31.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "21.06.2024 10:13:06",
+  "type" : "Заказ",
+  "quantity" : 12.0,
+  "resultStock" : 32.0,
+  "unitOfMeasureCode" : "ST"
+}, {
+  "dateTime" : "20.06.2024 11:44:22",
+  "type" : "Продажа (POS)",
+  "quantity" : -6.0,
+  "resultStock" : 32.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "19.06.2024 22:41:01",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 38.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "18.06.2024 18:12:02",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 41.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "17.06.2024 08:31:39",
+  "type" : "Поступление товара",
+  "quantity" : 12.0,
+  "resultStock" : 42.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "16.06.2024 11:39:41",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "15.06.2024 18:15:13",
+  "type" : "Продажа (POS)",
+  "quantity" : -6.0,
+  "resultStock" : 31.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "14.06.2024 14:36:52",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 37.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "13.06.2024 21:59:25",
+  "type" : "Продажа (POS)",
+  "quantity" : -1.0,
+  "resultStock" : 38.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "12.06.2024 20:38:09",
+  "type" : "Поступление товара",
+  "quantity" : 12.0,
+  "resultStock" : 39.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "12.06.2024 17:45:43",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 27.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "11.06.2024 22:24:25",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 30.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "10.06.2024 19:58:52",
+  "type" : "Продажа (POS)",
+  "quantity" : -3.0,
+  "resultStock" : 33.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+}, {
+  "dateTime" : "09.06.2024 22:16:40",
+  "type" : "Продажа (POS)",
+  "quantity" : -4.0,
+  "resultStock" : 36.0,
+  "unitOfMeasureCode" : "ST",
+  "sellingPrice" : 49.99
+} ]

@@ -1,0 +1,38 @@
+{% extends 'Core/app_template.html' %}
+{% block main_content %}
+    <button onclick="createInventory()">Начать выкладку</button>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Автор</th>
+            <th>Дата создания</th>
+            <th>Статус</th>
+        </tr>
+        {% for inventory in inventories %}
+        <tr>
+            <td>{{ inventory.id }}</td>
+            <td>{{ inventory.author }}</td>
+            <td>{{ inventory.created_at }}</td>
+            <td><a href='{{ inventory.id }}'>{{ inventory.get_status_display }}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <script>
+        function createInventory() {
+            fetch(`/GK/warehouses/{{ warehouse.id }}/pack/create/`, {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}',
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    window.location.href = `/gkapi/warehouses/inventories/${data.inventory_id}/`;
+                } else {
+                    alert(data.message);
+                }
+            });
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'Core/app_template.html' %}
+{% load static %}
+{% block css %}
+        <link rel="stylesheet" href="{% static 'css/files/doc_panel.css' %}">
+{% endblock %}
+
+{% block main_content %}
+
+<a href='upload' class="upload-link">Загрузить</a>
+<div class="table-container">
+    <h3 class="table-title">Файлы</h3>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Автор</th>
+                <th>Дата создания</th>
+                <th>Удалить</th>
+                <th>Скачать</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for file in files %}
+            <tr>
+                <td>{{ file.name }}</td>
+                <td>{{ file.author }}</td>
+                <td>{{ file.uploaded_at }}</td>
+                <td><button class="delete-button">Удалить</button></td>
+                <td>
+                    <a href='/GK/files/download/{{ file.file }}' class="download-link">Скачать</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

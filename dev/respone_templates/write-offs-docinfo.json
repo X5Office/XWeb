@@ -1,0 +1,22 @@
+{
+  "id": 100000000000005448,
+  "docNumber": "12345",
+  "name": "Полное списание по заказу 767878394",
+  "totalSum": 1000.0,
+  "released": true,
+  "releaseDateTime": "29.11.2019 10:10:00",
+  "positionsCount": 5,
+  "creationDateTime": "29.11.2019 10:10:00",
+  "dueDateTime": "29.11.2019 10:10:00",
+  "comment": "Полное списание товаров доставки по Агрегатору ",
+  "reason": {
+    "code": "Z7D",
+    "name": "Причина списания"
+  },
+  "type": {
+    "code": "TYPE_CODE",
+    "name": "Тип списания"
+  },
+  "status": "RELEASED",
+  "affordances": ["update", "release", "delete"]
+}

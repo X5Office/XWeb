@@ -1,0 +1,45 @@
+{% extends 'Core/app_template.html' %}
+{% block css %}
+    <style>
+        /* Стили для таблицы */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .custom-table th, .custom-table td {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .custom-table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+{% endblock %}
+{% block main_content %}
+    <h1>Список товаров на складе {{ warehouse.name }}</h1>
+    <table class="custom-table">
+        <tr>
+            <th>PLU</th>
+            <th>Наименование</th>
+            <th>Общее количество</th>
+            <th>Глобальный остаток</th>
+            <th>Размещение</th>
+        </tr>
+        {% for product in products %}
+        <tr>
+            <td>{{ product.plu }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.total_quantity }}</td>
+            <td>{{ product.global_stock }}</td>
+            <td>
+                {% for location in product.locations %}
+                    {{ location|safe }}<br>
+                {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

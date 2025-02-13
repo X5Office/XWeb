@@ -1,0 +1,71 @@
+{% extends 'Core/app_template.html' %}
+{% block css %}
+    <style>
+        /* Стили для таблицы */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .custom-table th, .custom-table td {
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .custom-table th {
+            background-color: #f2f2f2;
+        }
+
+        /* Стили для ссылок */
+        .custom-link {
+            color: #6a0dad;
+            text-decoration: none;
+        }
+
+        .custom-link:hover {
+            text-decoration: underline;
+        }
+
+        .create-shelf-link {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #6a0dad;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .create-shelf-link:hover {
+            background-color: #530b8a;
+        }
+    </style>
+{% endblock %}
+{% block main_content %}
+    
+    <a href="/GK/warehouses/{{ warehouse.id }}/shelves/create/" class="create-shelf-link">Создать полку</a>
+    <a href="/GK/warehouses/{{ warehouse.id }}/registry/" class="create-shelf-link">Реестр склада</a>
+    <a href="/GK/warehouses/{{ warehouse.id }}/update_global_stock/" class="create-shelf-link">Синхронизировать глобальные  остатки (Занимает время)</a>
+        <a href="/GK/warehouses/{{ warehouse.id }}/pack/" class="create-shelf-link">Выкладка склада</a>
+    <br>
+    <table class="custom-table">
+        <tr>
+            <th>ID</th>
+            <th>Номер</th>
+            <th>Наименование</th>
+        </tr>
+        {% for shelf in shelves %}
+        <tr>
+            <td>{{ shelf.id }}</td>
+            <td>{{ shelf.number }}</td>
+            <td>
+                <a href='/GK/warehouses/shelf/{{ shelf.id }}/' class="custom-link">{{ shelf.name }}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

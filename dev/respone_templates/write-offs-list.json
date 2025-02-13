@@ -1,0 +1,46 @@
+[
+  {
+    "id": 100000000000005448,
+    "docNumber": "O003004567890",
+    "name": "Полное списание по заказу 767878394",
+    "totalSum": 1000.0,
+    "released": true,
+    "releaseDateTime": "29.11.2019 10:10:00",
+    "positionsCount": 5,
+    "creationDateTime": "29.11.2019 10:10:00",
+    "dueDateTime": "29.11.2019 10:10:00",
+    "comment": "Полное списание товаров доставки по Агрегатору ",
+    "reason": {
+      "code": "Z8D",
+      "name": "Списание товаров Доставки"
+    },
+    "type": {
+      "code": "TYPE_CODE",
+      "name": "Тип списания"
+    },
+    "status": "RELEASED",
+    "affordances": ["update", "release", "delete"]
+  },
+  {
+    "id": 100000000000005498,
+    "docNumber": "O003004567890",
+    "name": "Полное списание по заказу 76787894",
+    "totalSum": 107.0,
+    "released": true,
+    "releaseDateTime": "29.11.2019 10:10:00",
+    "positionsCount": 2,
+    "creationDateTime": "29.11.2019 10:10:00",
+    "dueDateTime": "29.11.2019 10:10:00",
+    "comment": "Полное списание товаров доставки по Агрегатору ",
+    "reason": {
+      "code": "Z8D",
+      "name": "Списание товаров Доставки"
+    },
+    "type": {
+      "code": "TYPE_CODE",
+      "name": "Тип списания"
+    },
+    "status": "RELEASED",
+    "affordances": ["update", "release", "delete"]
+  }
+]

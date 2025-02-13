@@ -1,0 +1,22 @@
+{% extends 'Core/app_template.html' %}
+{% block main_content %}
+<div class="button-container">
+    {% for item in menu %}
+    <div class="button-item" onclick="goToLink('{{ item.link }}')">
+        <div class="button-top">
+            {% if item.badge != '' %}
+            <span class="badge">{{ item.badge }}</span>
+            {% endif %}
+            <img src="{{ item.icon }}" alt="">
+        </div>
+        <div class="button-text">{{ item.name }}</div>
+        
+    </div>
+    {% endfor %}
+</div>
+<script>
+    function goToLink(url) {
+  window.location.href = url;
+}
+</script>
+{% endblock %}

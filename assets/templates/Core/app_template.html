@@ -1,0 +1,26 @@
+{% extends 'Core/blank_template.html' %}
+{% block root %}
+    <div class="header">
+        {% if page.return_url %}
+            <a href="{{ page.return_url }}">
+                <button class="back-button">⬅</button>
+            </a>
+        {% endif %}
+        <div class="text-container">
+            <div class="main-text">{{ page.header.main }}</div>
+            <div class="after-text">{{ page.header.after }}</div>
+        </div>
+    </div>
+    <div class="content">
+        {% block main_content %}{% endblock %}
+    </div>
+    <div class="bottom-panel">
+        {% for item in page.menu %}
+            <a href="{{ item.url }}">
+                <button class="panel-button {{ item.icon }}"></button>
+            </a>
+        {% endfor %}
+        {% block fff %}{% endblock %}
+    </div>
+    
+{% endblock %}
