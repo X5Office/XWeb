@@ -23,6 +23,6 @@ jobs:
           chmod 600 private_key
           ssh -o StrictHostKeyChecking=no -i private_key ${SSH_USER}@${SSH_HOST} << 'EOF'
             cd /usr/XBackOffice/xweb
-            git pull origin master
+            git pull
             systemctl restart xoffice
           EOF
