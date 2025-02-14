@@ -19,6 +19,8 @@ urlpatterns = [
     path('delivery/', include('Apps.delivery.urls')),
     # Склад 
     path('warehouses/', include('Apps.warehouses.urls')),
+    # Ошибки
+    path('error/', include('Apps.error.urls')),
     
     
 ]
