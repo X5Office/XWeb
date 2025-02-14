@@ -5,7 +5,7 @@
         .custom-table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 20px;
+            margin-top: 20px;
         }
 
         .custom-table th, .custom-table td {
@@ -42,23 +42,28 @@
         .create-warehouse-link:hover {
             background-color: #530b8a;
         }
+        .margin_block {
+            margin-top: 20px;
+        }
     </style>
 {% endblock %}
 {% block main_content %}
-    <h1>Список складов</h1>
-    <table class="custom-table">
-        <tr>
-            <th>ID</th>
-            <th>Наименование</th>
-            <th>Действия</th>
-        </tr>
-        {% for warehouse in warehouses %}
-        <tr>
-            <td>{{ warehouse.id }}</td>
-            <td>{{ warehouse.name }}</td>
-            <td><a href="/GK/warehouses/{{ warehouse.id }}/shelves/" class="custom-link">Полки</a></td>
-        </tr>
-        {% endfor %}
-    </table>
     <a href="/GK/warehouses/create" class="create-warehouse-link">Создать склад</a>
+<div class="margin_block">
+    {% for warehouse in warehouses %}
+    <div class="document-card">
+        <div class="document-header">
+          <div class="document-title">
+            <span class="document-id"><a href="/GK/warehouses/{{ warehouse.id }}/shelves/" class="custom-link">{{ warehouse.name }}</a></span>
+            <span class="document-date">ID склада: {{ warehouse.id }}</span>
+          </div>
+          <div class="document-status">
+                {{ warehouses.status }}Открытый
+          </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
 {% endblock %}
