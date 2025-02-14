@@ -24,5 +24,5 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i private_key ${SSH_USER}@${SSH_HOST} << 'EOF'
             cd /usr/XBackOffice/xweb
             git pull
-            systemctl restart xoffice
+            systemctl restart xbo
           EOF
