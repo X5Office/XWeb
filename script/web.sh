@@ -1,1 +1,2 @@
-python manage.py runserver 0.0.0.0:8097
+cd /usr/XBackOffice/xweb
+python manage.py runserver 0.0.0.0
