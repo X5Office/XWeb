@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{% static 'css/login_page.css' %}">
+    <style>
+        .sized {
+        width: 100%;
+        }
+    </style>
 </head>
 <body>
     <div class="auth-container">
         <div class="auth-card">
-            <h2 class="auth-title">WebGK R3_Chiabbata</h2>
+            <div class="auth_title "><img class="sized" src="/static/icon/GK_logo.png" alt="LOGO"></div>
             <form class="auth-form" method="post">
                 {% csrf_token %}
                 <div class="form-group">
