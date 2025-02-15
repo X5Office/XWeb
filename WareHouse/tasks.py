@@ -25,13 +25,13 @@ def syncGlobalStock(request, warehouse_id):
 def createPackDoc(inventory_id):
     # Найти документ Inventory по переданному ID
     inventory = Inventory.objects.get(id=inventory_id)
-    print('1')
+
     # Получить список всех продуктов, которые соответствуют условиям
     products = Product.objects.filter(warehouse=inventory.warehouse)
-    print('1')
+
     # Сгруппировать продукты по PLU и суммировать их остатки на складе
     plu_groups = products.values('plu', 'name').annotate(total_stock=Sum('stock_on_shelf'))
-    print('1')
+
     # Создать записи в модели InventoryItem
     for group in plu_groups:
         plu = group['plu']
@@ -51,11 +51,9 @@ def createPackDoc(inventory_id):
             status='pending',
             total_stock=total_stock
         )
-        print('1')
+
         # Привязать все соответствующие записи Product
         inventory_item.accommodations.set(accommodations)
-        print('1')
     inventory.status = 'new'
     inventory.save()
-    print('1')
     return print("Inventory items created successfully.")
