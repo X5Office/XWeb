@@ -4,7 +4,7 @@ from django.dispatch import receiver
 from .models import Warehouse, Shelf, Product, Inventory, InventoryItem
 
 
-models = [Warehouse, Shelf, Product, Inventory, InventoryItem]
+models = [Warehouse, Shelf, Product]
 # Словарь для хранения состояния записи до сохранения
 old_state = {}
 
