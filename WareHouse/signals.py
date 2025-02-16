@@ -31,43 +31,45 @@ def universal_pre_save(sender, instance, **kwargs):
 def universal_post_save(sender, instance, created, **kwargs):
     if getattr(instance, '_is_sync', False):
         return
-    if True:
-        change_type = 'create' if created else 'update'
-        log = {
-            "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            "changes": {
-                "app": sender._meta.app_label,
-                "table": sender.__name__,
-                "record_id": instance.id,
-                "change_type": change_type,
-                "old_state": old_state.pop(instance.pk, {}),
-                "new_state": {
-                    field.name: getattr(instance, field.name)
-                    if not field.is_relation else getattr(instance, field.name).pk
-                    for field in instance._meta.fields
-                    if not field.is_relation or field.many_to_one
-                },
-                "updated_fields": []
+
+    change_type = 'create' if created else 'update'
+    log = {
+        "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        "changes": {
+            "app": sender._meta.app_label,
+            "table": sender.__name__,
+            "record_id": instance.id,
+            "change_type": change_type,
+            "old_state": old_state.pop(instance.pk, {}),
+            "new_state": {
+                field.name: getattr(instance, field.name)
+                if not field.is_relation else (
+                    getattr(instance, field.name).pk
+                    if getattr(instance, field.name) is not None else None
+                )
+                for field in instance._meta.fields
+                if not field.is_relation or field.many_to_one
             },
-            "status": ""
-        }
+            "updated_fields": []
+        },
+        "status": ""
+    }
 
-        # Обработка ManyToManyField
-        log["changes"]["new_state"].update({
-            field.name: list(getattr(instance, field.name).values_list('pk', flat=True))
-            for field in instance._meta.many_to_many
-        })
+    log["changes"]["new_state"].update({
+        field.name: list(getattr(instance, field.name).values_list('pk', flat=True))
+        if getattr(instance, field.name).exists() else []
+        for field in instance._meta.many_to_many
+    })
 
-        # Определение измененных полей
-        old_data = log["changes"]["old_state"]
-        new_data = log["changes"]["new_state"]
-        log["changes"]["updated_fields"] = [
-            field for field in new_data
-            if new_data[field] != old_data.get(field)
-        ]
+    old_data = log["changes"]["old_state"]
+    new_data = log["changes"]["new_state"]
+    log["changes"]["updated_fields"] = [
+        field for field in new_data
+        if new_data[field] != old_data.get(field)
+    ]
 
-        # Здесь можно добавить логику для сохранения лога, например, в базу данных или файл
-        print(log)
+    print(log)
+
 
 # Универсальный обработчик для post_delete
 def universal_post_delete(sender, instance, **kwargs):
